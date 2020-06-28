@@ -1,0 +1,207 @@
+* 
+{
+	
+   font-family: Trebuchet MS, Arial, Verdana, sans-serif;
+
+}
+
+html, body {
+	
+
+	font-size:10pt;
+	 margin: 0;
+	 height:100%;
+}
+
+body
+{
+	
+	display:flex;
+	flex-direction:column;
+
+}
+
+#logo
+{
+	margin-right: auto;
+	margin-left:10px;
+	color: white;
+	padding-left:10px;
+}
+
+header
+{
+	height: 8%;
+	background-color:#4234A3;
+	display: flex;
+	justify-content: flex-end;
+
+	align-items:center;
+}
+
+
+#content
+{
+	
+	display:flex;
+	flex-grow:1;
+	
+	
+}
+
+
+
+#side
+{
+	background:#ededed;
+	flex:1 1 0;
+	
+}
+#search
+{
+	flex:4 1 0;
+	display:flex;
+	flex-direction:column;
+	
+
+	align-items:center;
+}
+
+#search_section
+
+{
+	display:flex;
+	width:100%;
+	justify-content:center;
+}
+
+
+#search_section input
+{
+	
+	margin: 10px 0px 10px 0px; 
+
+	
+	
+}
+
+
+.search_bar
+{
+
+	height:30px;
+	width:500px;
+	border-radius:15px;
+	border-width:1px;
+	border-color:#ccc;
+	 border-style: solid;
+	 outline:none;
+	 padding: 0px 20px 0px 20px;
+	
+
+}
+
+.list
+{
+	
+	display:flex;
+	flex-direction:column;
+	width:100%;
+}
+
+.item
+{
+	margin:5px 10px 5px 10px;
+	display:flex;
+	border-radius:10px;
+	box-shadow: 0px 2px 10px #3b3b3b;
+}
+
+.item img
+{
+	
+	width:20px;
+	height:auto;
+	flex: 0 1 70px;
+	border-radius:10px;
+	margin: 5px;
+	margin-bottom:10px;
+}
+
+.left_item
+{
+	flex: 1 1 0;
+	display:flex;
+	flex-direction:column;
+}
+
+
+.doc_name
+{
+	
+	font-size:15pt;
+	font-style:bold;
+	margin-top:8px;
+}
+
+.location
+{
+	margin-left:5px;
+	color:#787878;
+}
+
+.spe
+{
+	margin-top:auto;
+	margin-bottom:5px;
+	margin-left:5px;
+	color:#787878
+}
+
+
+.right_item
+{
+	flex: 0 1 100px;
+	display:flex;
+	
+	justify-content:center;
+	align-items:center;
+}
+
+#rdv
+{
+	color: white;
+	background:	#32CD32;
+
+	cursor: pointer;
+	outline: none;
+
+	border-radius: 5px;
+	border-color: #32CD32;
+	border-style: solid;
+	
+	
+	margin-left:5px;
+	margin-right:10px;
+}
+
+
+
+#rdv:hover
+{
+	color: white;
+	background:	#006400;
+	border-color: #006400;
+
+}
+
+
+#rdv:active
+{
+
+	background-color: #ffffff;
+	color: #32CD32;
+}
+
+
+

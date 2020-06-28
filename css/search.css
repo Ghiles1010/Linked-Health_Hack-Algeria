@@ -1,0 +1,91 @@
+* 
+{
+	
+   font-family: Trebuchet MS, Arial, Verdana, sans-serif;
+
+}
+
+html, body {
+	
+
+	font-size:10pt;
+	 margin: 0;
+	 height:100%;
+}
+
+
+body
+{
+	
+	display:flex;
+	flex-direction:column;
+
+}
+
+
+header
+{
+	height: 8%;
+	background-color:#4234A3;
+	display: flex;
+	justify-content: flex-end;
+
+	align-items:center;
+}
+
+#logo
+{
+	margin-right: auto;
+	margin-left:10px;
+	color: white;
+	padding-left:10px;
+}
+
+
+#content
+{
+
+	flex-grow:1;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+
+}
+
+
+
+#content h1
+{
+
+	font-size:30pt;
+	letter-spacing:10px;
+	transform: translate(0px, -80px);
+	
+	  background: linear-gradient(to right bottom, #55d7b7, #2acec3, #00c3cd, #00b8d4, #00acd6);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+
+}
+
+.search_bar
+{
+
+	height:30px;
+	transform: translate(0px, -60px);
+	width:500px;
+	border-radius:15px;
+	border-width:1px;
+	border-color:#ccc;
+	 border-style: solid;
+	 outline:none;
+	 padding: 0px 20px 0px 20px;
+	
+
+}
+
+
+
+
+	
