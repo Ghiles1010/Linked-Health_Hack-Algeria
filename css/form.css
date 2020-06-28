@@ -204,7 +204,7 @@ form h3
 .select::after
 {
 	content:"";
-	background: url("down-arrow.png");
+	background: url("images/down-arrow.png");
 	background-size: contain;
 	background-repeat:no-repeat;
 	
