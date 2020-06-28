@@ -1,13 +1,32 @@
-from flask import Flask
+from flask import Flask, render_template
 
-app = Flask(__name__)
+app = Flask(__name__,static_folder="..//static",template_folder="..//html")
 
 
 @app.route("/")
 def home():
-	return "Hello! this is the main page <h1>HELLO<h1>"
+	return render_template("index.html")
 
+@app.route("/form")
+def form():
+	return render_template("form.html")
+
+@app.route("/form_doc")
+def form_doc():
+	return render_template("form_doc.html")
+
+@app.route("/search")
+def search():
+	return render_template("search.html")
+
+@app.route("/results")
+def results():
+	return render_template("results.html")
+
+@app.route("/telemed")
+def telemed():
+	return render_template("telemed.html")
 
 if __name__ == "__main__":
 	
-	app.run()
+	app.run(debug = True)

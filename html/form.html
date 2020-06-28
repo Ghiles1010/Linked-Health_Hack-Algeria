@@ -4,7 +4,7 @@
 	<head>
 	
 	<meta charset = "UTF-8">
-	<meta name = "description content" = "telemedecine">
+	<meta name = "description content" >
 	
 	<link rel="stylesheet" href="../css/form.css" />
 
@@ -44,7 +44,7 @@
 		<section id="form">
 			
 			<div class="nurse">
-				<img src="images/hi_nurse.png" alt="Girl in a jacket">
+				<img src="{{ url_for('static', filename='images/hi_nurse.png')}}" alt="Girl in a jacket">
 				
 				<button >Terminer</button>
 			
@@ -337,7 +337,7 @@
 	
 	
 	
-	<script src="../js/form.js"></script>
+	<script src="{{url_for('static', filename='js/form.js') }}"></script>
 	</body>
 	
 	

@@ -5,7 +5,8 @@
 	<meta charset = "UTF-8">
 	<meta name = "description content" = "telemedecine">
 	
-	<link rel="stylesheet" href="../css/telemed.css" />
+	
+	<link rel="stylesheet" href= "../static/css/telemed.css" />
 	
 	</head>
 	<body>
@@ -23,7 +24,7 @@
 				
 				<div class="video">
 					
-					<img src="images/black_txt.jpg">
+					<img src="{{ url_for('static', filename='images/black_txt.jpg')}}">
 					<label>La téléconsultation n'a pas encore commencé</label>
 				
 				</div>
