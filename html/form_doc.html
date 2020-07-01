@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+	<meta charset = "UTF-8">
+	<meta name = "description content" = "telemedecine">
+	
+	<link rel="stylesheet" href="../static/css/form.css" />
+
+	
+	</head>
+	
+	
+	<body>
+		
+		<header>
+		
+			<h2 id = "logo">Linked-Health</h2>
+			
+		
+		</header>
+		
+		
+		<section id="switch">
+			
+			<div id="type">
+				<label>Vous êtes:</label>
+			</div>
+			
+			
+			<label>Patient</label>
+			
+			<label class="switch">
+				<input type="checkbox">
+				<span class="slider"></span>
+			</label>
+		
+			<label>Médecin</label>
+		</section>
+		
+		
+		
+		<section id="form">
+			
+			<div class="nurse">
+				<img src="{{ url_for('static', filename='images/hi_nurse.png')}}" alt="Girl in a jacket">
+				
+				<button >Terminer</button>
+			
+			</div>
+			
+			<form class="droite">
+				
+				<h3>Identification</h3>
+				<div class="border">
+				<section id = "identification">
+					
+					
+					<div class="field">
+					
+						<label>Nom</label>
+						<input type ="text" name = "name" id="name">
+					</div>
+					
+					<div class="field">
+					
+						<label>Prénom</label>
+						<input type ="text" name = "Fname">
+					</div>
+					
+					
+					
+					<div class="field">
+					
+						<label>E-mail</label>
+						<input name = "email" type="text">
+					</div>
+					
+					<div class="field">
+					
+						<label>Téléphone</label>
+						<input type ="text" name = "phone">
+					</div>
+					
+				
+				
+				
+				</section>
+				</div>
+				
+				
+					
+					
+					
+					
+					
+				
+		</section>
+			
+			
+				 
+				
+			
+			
+		</form>
+		</div>
+	
+	
+	
+	<script src="{{url_for('static', filename='js/form.js') }}"></script>
+	</body>
+	
+	
+	
+	
+	
+</html>

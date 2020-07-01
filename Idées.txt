@@ -1,0 +1,63 @@
+Téléconsultation => déserts médicaux, prise de RDV
+aide gestion patients hôpitaux.
+Numérisation de dossier médicaux.
+Recherche grâce à web sémantique.
+Pharmacie.
+La localisation de la prise en charge des maladies hors Covid-19.
+Statistiques.
+
+********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+ Gestion de vaccin.(projet à part )
+context : dans le cas d’un programme de vaccination de la population ,une distribution équitable et méthodique est nécessaire surtout qu’au début la qt est limitée  ,ainsi une stratégie de vaccination doit être la plus bénéfique possible pour :
+Soigner les personnes contaminés  les + a risque de développer des symptômes plus grave ou de décéder
+Prévenir d’autres cas  d’une infection
+S'intéresser au secteurs les + importants selon != critères (le taux d’infection ,l’importance économique de la wilaya,la situation sécuritaire etc)
+
+L'app gère des millions de cas et s’occupe de les montrer afin de choisir manuellement et peut sortir une liste qui satisfait les critères donnés.      
+On peut aussi  suivre l'évolution des gens traités de plus près on peut imaginer aussi une utilisation d’autres traitements autre que vaccin et suivre l'évolution des patients régulièrement afin de faire un bilan sur l'efficacité etc .
+
+
+
+********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+
+
+l’idée est de créer un mini écosystème
+
+
+ 	Le patient s’inscrit sur la plateforme, il crée un dossier médical en remplissant les informations le concernant, puis le patient effectue une recherche en tapant des mots clés par exemple : “mal de cœur, fièvre, enfant” et le logiciel le dirige automatiquement vers les médecins spécialisés et, ou généraliste qui peut soigner leurs symptômes, si les symptômes recherchés sont liés au covid-19, on conseil le patient d’appeler le numéro vert mis en place par les autorités
+
+une fois la recherche effectuée, le patient peut prendre RDV avec un des médecins, le médecin disposera du dossier médical du patient, ce qui évitera ainsi les erreurs médicales, le médecin doit effectuer un compte rendu après chaque consultation qui sera ajouté au dossier médical
+
+si le médecin juge important d’envoyer un patient vers un hôpital, l’application proposera l'hôpital le le plus convenable au médecin pour diriger le patients selon plusieurs critères (nombre de lits, disponibilité du service demandé, etc...)
+
+un autre bénéfice de la disposition du dossier médical, c’est le cas des urgences, l’urgentiste peut directement consulter le dossier du patient pour faire un diagnostique
+
+dans le cas ou le médecin a besoin d’effectuer des actions mineurs (ex: prise de tension) le patient peut de diriger vers le professionnel de santé le plus proche et lui demander de le faire pour continuer la téléconsultation, surtout dans le cas des déserts médicaux
+
+la plateforme aidera les patients à se diriger vers les pharmacie les plus proches de chez eux qui disposent de tous les médicaments prescrits
+
+nous utiliserons toutes ses données pour fournir des statistiques fiables au public pour palier au problème du manque de statistiques et de crédibilités en Algérie. ce qui aidera aussi les autorités à prendre des décisions en se basant sur ces stats
+
+On mettra un partie public de l’application qui ne nécessite pas d’authentification, ce sera une carte avec les toutes les association et hôpitaux et ce avec une liste de leur besoins
+
+Aide à la distribution des vaccins lors de leur disponibilité en permettant aux hôpitaux de définir les critères des plus prioritaires
+
+
+institution(hopital, État...)
+patient
+simple visiteur
+médecin
+
+
+Ghiles: Backend + front end
+Raouf: backend + chwiya font end
+Rafa: backend 
+Chakib: backend.
+
+
+
+Présentation:
+
+
+
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+	<meta charset = "UTF-8">
+	<meta name = "description content" = "telemedecine">
+	
+	
+	<link rel="stylesheet" href= "../static/css/telemed.css" />
+	
+	</head>
+	<body>
+		
+		<header>
+		
+			<h2 id = "logo">Linked-Health</h2>
+		
+		</header>
+		
+		
+		<div class="content">
+			
+			<section class="video_section">
+				
+				<div class="video">
+					
+					<img src="{{ url_for('calc')}}">
+					<label>La téléconsultation n'a pas encore commencé</label>
+				
+				</div>
+				
+				<div class="video_options">
+				
+					<button id="micro">muter le micro</button>
+					<button id="camera">désactiver la caméra</button>
+					<button id="Raccrocher">Raccrocher</button>
+				
+				</div>
+				
+			</section>
+			
+			
+			
+			<section class="chat_section">
+				
+				<div id="chat_title">
+				
+					<h2>Chat<h2>
+				</div>
+				
+				<div class="chat">
+					
+					<div class="message-box">
+						
+						<div class = "message  self">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius vitae leo sit amet bibendum. Suspendisse quis vestibulum metus. Donec venenatis varius eros id rutrum. Maecenas sit amet erat est. Etiam luctus turpis leo, eget lacinia augue pellentesque id. Aliquam erat volutpat. Integer posuere dignissim condimentum. Nunc sodales tempor neque quis sagittis. Nulla tempus ipsum leo, ac auctor diam cursus sed. In vitae odio ante. Mauris malesuada risus vitae sapien dapibus porttitor. Phasellus quis lacus velit.</p>
+						</div>
+					</div>
+					
+					
+					<div class="message-box" >
+						
+						<div class = "message other">
+							
+							<p>Hi, this is the second message</p>
+						</div>
+					</div>
+					
+					
+				</div>
+				
+				<div class="send_message">
+				
+					<input type="text" class="search_bar" placeholder="Aa...">
+					<button>Envoyer</button>
+				</div>
+				
+			</section>
+		</div>
+		
+	</body>
+	
+
+</html>
