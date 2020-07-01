@@ -141,7 +141,8 @@ form
 	flex-direction:column;
 }
 
-input[type="text"],[type="date"]
+
+input[type="text"],[type="date"],[type="password"]
 {
 	width:80%;
 	height:15px;
@@ -318,6 +319,10 @@ form h3
 
 #selected
 {
+
+	opacity: 1;
+	overflow-y: scroll;
+	max-height: 200px;
 	flex-wrap:wrap;
 	flex: 1;
 	background:#edfdf8;
@@ -327,6 +332,23 @@ form h3
 	padding:10px 0px 0px 10px;
 	align-content:flex-start;
 }
+
+
+.selected::-webkit-scrollbar
+{
+	
+	width: 9px;
+	background:#c7fceb;
+	border-radius: 0 8px 8px 0;
+}
+
+.selected::-webkit-scrollbar-thumb
+{
+	
+	background:#55D7B7;
+	border-radius: 0 8px 8px 0;
+}
+
 
 #selected .chip
 {

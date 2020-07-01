@@ -1,0 +1,286 @@
+* 
+{
+	
+   font-family: Trebuchet MS, Arial, Verdana, sans-serif;
+
+}
+
+html, body {
+	
+
+	font-size:10pt;
+	 margin: 0;
+	 height: 100%;
+
+}
+
+body
+{
+	
+	display:flex;
+	flex-direction:column;
+
+}
+
+#logo
+{
+	margin-right: auto;
+	margin-left:10px;
+	color: white;
+	padding-left:10px;
+}
+
+header
+{
+	height: 8%;
+	background-color:#4234A3;
+	display: flex;
+	justify-content: flex-end;
+
+	align-items:center;
+}
+
+
+.content
+{
+	
+	display:flex;
+	flex-grow:1;
+	
+	
+}
+
+.left
+{
+
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  height:initial;
+  background: #4234A3;
+  border-radius: 0px 10px 10px 0px;
+  margin: 5px 0px 5px 0px;
+
+}
+
+.right
+{
+
+
+	flex: 4 1 0;
+}
+
+.action
+{
+
+	color: white;
+	height: 40px;
+	border-radius: 0px 10px 10px 0px;
+	display: flex;
+	align-items: center;
+
+}
+
+.action label
+{
+
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.action:hover
+{
+
+	background:#494454 ;
+}
+
+.list.RDV .item:hover
+{
+	background: #ededed;
+}
+
+.right_item
+{
+	justify-content: space-evenly;
+	display: flex;
+	flex-direction: column;
+}
+.left_item .name
+{
+	color: black;
+	font-size:15pt;
+	font-style:bold;
+	margin-top:8px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.left_item .status
+{
+
+	margin-left:5px;
+	color:#787878;
+}
+
+.left_item .status span
+{
+
+	color: green;
+}
+.left_item .Nature_RDV
+{
+
+	margin-top:auto;
+	margin-bottom:10px;
+	margin-left:5px;
+	color:#787878
+}
+
+
+.right_item button
+{
+	cursor: pointer;
+	flex: 0 1 30px;
+	outline: none;
+	border: none;
+	border-radius: 8px;
+	color: white;
+	width:80%
+}
+.right_item button.accepter
+{
+
+	
+	background: green;
+}
+
+.right_item button.refuser
+{
+
+	background:red;
+}
+
+.right_item button.accepter:hover
+{
+
+	
+	background: rgb(45, 153, 45);
+}
+
+.right_item button.refuser:hover
+{
+
+	background: rgb(207, 43, 43);
+}
+
+.chercher
+{
+
+	height: 100%;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.chercher .fields
+{
+
+	display: flex;
+	flex-direction: column;
+
+}
+
+.chercher label
+{
+	
+
+	font-size: 10pt;
+
+}
+
+.chercher input
+{
+	padding: 0px 15px 0px 15px;
+	outline: none;
+	height: 30px;
+	border-radius: 5px;
+	border-color: #4234A3;
+	border-style: solid;
+}
+
+.fields
+{
+
+	margin-left: 30px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.fields .field
+{
+	margin-top: 5px;
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	flex-basis: 30px;
+}
+
+.chercher label
+{
+
+	margin: 20px 0px 0px 20px;
+}
+
+.results
+{
+	margin: 15px;
+	flex-grow: 1;
+	background: #ededed;
+	border-radius: 10px;
+}
+
+.list.dossiers .item
+{
+	display: flex;
+	background: white;
+}
+
+label.name_dossier
+{
+
+	font-size: 15pt;
+	margin-top: 10px;
+	margin-bottom: 15px;
+
+}
+
+p.age
+{
+
+	margin: auto 0px 0px 20px;
+	font-size: 8;
+}
+
+label.sexe
+{
+
+	margin: auto 0px 10px 20px;
+}
+.list.dossiers .item .right_item .voir_dossier
+{	
+	width: 100px;
+	
+	border-style: solid;
+	outline: none;
+	background: #4234A3;
+	color: white;
+	margin-right: 20px;
+}
+
+.list.dossiers .item .right_item .voir_dossier:hover
+{
+	background: #5d4dca;
+}

@@ -1,0 +1,49 @@
+const sang = document.querySelector(".select_box.sang .select label");
+const rhesus = document.querySelector(".select_box.rhesus .select label");
+
+
+
+options_rh = document.querySelector(".select_box.rhesus .container").querySelectorAll(".options");
+options_sang = document.querySelector(".select_box.sang .container").querySelectorAll(".options");
+
+
+options_sang.forEach( (bld) =>{
+
+	bld.addEventListener("click", () => {
+		
+		txt = bld.querySelector("label").innerText;
+		selectBlood(txt);
+	});
+
+}
+)
+
+options_rh.forEach( (rh) =>{
+
+	rh.addEventListener("click", () => {
+		
+		txt = rh.querySelector("label").innerText;
+		selectRH(txt);
+	});
+
+}
+)
+
+function selectRH(txt)
+{
+
+	rhesus.removeChild(rhesus.firstChild)
+	
+	var textnode = document.createTextNode(txt); 
+	rhesus.appendChild(textnode);
+}
+
+function selectBlood(txt)
+{
+
+	sang.removeChild(sang.firstChild)
+	
+	var textnode = document.createTextNode(txt); 
+	sang.appendChild(textnode);
+
+}

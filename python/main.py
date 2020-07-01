@@ -50,6 +50,7 @@ def results():
 def telemed():
 	return render_template("telemed.html")
 
+
 def get_frame():
 	camera_port=0
 	camera = cv2.VideoCapture(camera_port) #this makes a web cam object
@@ -63,6 +64,10 @@ def get_frame():
 
 	del(camera)
 
+@app.route("/doctor_profile")
+def doctor_profile():
+	return render_template("doctor_profile.html")
+
 @app.route('/calc')
 def calc():
      return Response(get_frame(),mimetype='multipart/x-mixed-replace; boundary=frame')
@@ -70,4 +75,5 @@ def calc():
 if __name__ == "__main__":
 	
 	app.run(debug = True)
+
 

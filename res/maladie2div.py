@@ -4,6 +4,8 @@ file = open("maladies.txt",'r',encoding="utf-8")
 out = open("maladiesHtml.txt",'w',encoding="utf-8")
 
 
+dup=[]
+
 option="""								<div class = "options">
 									
 									<input type="radio" class="option" id="bla">
@@ -23,6 +25,17 @@ for i in file:
 
         print(div)
         out.write(div+"\n")
+
+        if ill not in dup:
+            
+            dup.append(ill)
+            div=re.sub("bla",ill,option)
+
+            #print(div)
+            out.write(div+"\n")
+        
+        else:
+            print("ok")
 
 file.close()
 out.close()
