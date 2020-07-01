@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, Response
+from flask import Flask, render_template, request, Response, url_for, redirect
 import Edit_Ontologie
 import cv2
 
@@ -17,6 +17,7 @@ def form():
 		prenom = request.form['Fname']
 		email = request.form['email']
 		tel = request.form['phone']
+		motdepasse = request.form['password']
 		adresse = request.form['adresse']
 		dateNaiss = request.form['date']
 		antPerso = request.form['antecedantsP']
@@ -24,11 +25,14 @@ def form():
 		profession = request.form['profession']
 		autreMentions = request.form['autre']
 		sexe = request.form['sexe']
+		groupeSang = request.form['sang']
+		rhesus = request.form['rhesus']
+		print(groupeSang, rhesus, flush=True)
 		#maladie = request.form['divselected'].div.getlist('maladie')
 
 		# formulaire correct
-		Edit_Ontologie.create_patient("1", nom, prenom,email, tel, dateNaiss, sexe, adresse,profession,antPerso,antFamille,autreMentions)
-		return render_template("form.html")
+		Edit_Ontologie.create_patient("1", nom, prenom,email, motdepasse, tel, dateNaiss, sexe, adresse, groupeSang, rhesus, profession,antPerso,antFamille,autreMentions)
+		return redirect(url_for("search"))
 
 	else:
 		print("GET", flush=True)
@@ -37,6 +41,17 @@ def form():
 @app.route("/form_doc")
 def form_doc():
 	return render_template("form_doc.html")
+
+@app.route("/login", methods = ['GET', 'POST'])
+def login():
+	if request.method == "POST":
+		mail = request.form['email']
+		password = request.form['pass']
+		
+		# il faut checker dans la base de données
+
+
+	return render_template("login.html")
 
 @app.route("/search")
 def search():

@@ -22,7 +22,7 @@
 				
 			</ul>
 		
-			<button id="connect">Se connecter </button>
+			<button id="connect" onclick="window.location.href='{{ url_for( 'login' ) }}';" >Se connecter </button>
 			
 		</header>
 		
@@ -38,7 +38,7 @@
 				inscrivez-vous !
 			</h4>
 			
-			<button class="register">S'inscrire </button>
+			<button class="register" onclick="window.location.href='{{ url_for( 'form' ) }}';">S'inscrire </button>
 			
 			<img src="{{ url_for('static', filename='images/nurse.png')}}" alt="Girl in a jacket">
 			

@@ -24,7 +24,7 @@ def enum_class(onto):
     return liste
 
 #Cette fonction nous permet de créer un patient dans notre ontologie
-def create_patient(Id,nom, prenom, e_mail,tel,date_de_naissance, sexe,adresse,profession, antecedent_perso,antecedent_famille,  autre_chose):
+def create_patient(Id,nom, prenom, e_mail,password,tel,date_de_naissance, sexe,adresse, groupe_sanguin, rhesus, profession, antecedent_perso,antecedent_famille,  autre_chose):
 
     #On recupere la classe "Patient" de notre liste
     class_patient = list_class[9]
@@ -36,12 +36,13 @@ def create_patient(Id,nom, prenom, e_mail,tel,date_de_naissance, sexe,adresse,pr
     P.Nom = nom
     P.Prenom.append(prenom)
     P.Email = e_mail
+    P.Password = password
     P.Sexe = sexe
     P.Telephone = tel
     P.DateDeNaissance = date_de_naissance
     P.Adresse = adresse
-    #P.GroupeSanguin = groupe_sanguin
-    #P.Rhesus = rhesus
+    P.GroupeSanguin = groupe_sanguin
+    P.Rhesus = rhesus
     P.Profession = profession
     P.AntecedentPerso.append(antecedent_perso)
     P.AntecedentFamille.append(antecedent_famille)
@@ -355,13 +356,12 @@ graph.serialize("sortieturtle.rdf",format="turtle")
 
 
 
-'''
 enrichissementwilaya("wilaya.csv")
 enrichissementdaira("communes.csv")
 enrichissementsymp("sym.txt")
 enrichissementsympcov("sym_covid.txt")
 enrichissementmaladiechronique("maladie_chronique.txt")
-enrichissementspecialite("specialite_medecine.txt")'''
+enrichissementspecialite("specialite_medecine.txt")
 
 #fromcsvtordf("./test.csv")
 
@@ -380,8 +380,8 @@ enrichissementspecialite("specialite_medecine.txt")'''
 
 
 #On invoque le raisonneur Hermit
-owlready2.JAVA_EXE = "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath\\java.exe"
-sync_reasoner()
+#owlready2.JAVA_EXE = "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath\\java.exe"
+#sync_reasoner()
 
 
 #On sauvegarde notre ontologie

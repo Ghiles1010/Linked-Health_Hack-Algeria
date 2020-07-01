@@ -13,11 +13,6 @@ with onto:
         pass
 
 
-  
-
-
-
-
     class Nom(DataProperty, FunctionalProperty):
         range = [str]
         domain = [Humain]
@@ -35,15 +30,11 @@ with onto:
         range = [str]
         domain = [Humain]
 
-
-
-
-
-    
-
-    class Nom(DataProperty):
+    class Password(DataProperty, FunctionalProperty):
         range = [str]
         domain = [Humain]
+
+    
 
 
     class Patient(Humain):
