@@ -2,6 +2,9 @@ const selectedAll = document.querySelectorAll(".select");
 const maladies_container = document.querySelector(".container.maladies");
 
 
+
+
+
 selectedAll.forEach( (selected) => {
 	
 	const container = selected.nextElementSibling;
@@ -81,4 +84,88 @@ function addChip(text){
 	
 	
 	
+	
 }
+
+/***********************************************************************************************/
+
+const sang = document.querySelector(".select_box.sang .select label");
+const rhesus = document.querySelector(".select_box.rhesus .select label");
+
+
+
+options_rh = document.querySelector(".select_box.rhesus .container").querySelectorAll(".options");
+options_sang = document.querySelector(".select_box.sang .container").querySelectorAll(".options");
+
+
+options_sang.forEach( (bld) =>{
+
+	bld.addEventListener("click", () => {
+		
+		txt = bld.querySelector("label").innerText;
+		selectBlood(txt);
+	});
+
+}
+)
+
+options_rh.forEach( (rh) =>{
+
+	rh.addEventListener("click", () => {
+		
+		txt = rh.querySelector("label").innerText;
+		selectRH(txt);
+	});
+
+}
+)
+
+function selectRH(txt)
+{
+
+	rhesus.removeChild(rhesus.firstChild)
+	
+	var textnode = document.createTextNode(txt); 
+	rhesus.appendChild(textnode);
+
+	rh_container = document.querySelector(".select_box.rhesus .container")
+	rh_container.classList.toggle("active");
+
+}
+
+function selectBlood(txt)
+{
+
+	
+	sang.removeChild(sang.firstChild)
+	var textnode = document.createTextNode(txt); 
+	sang.appendChild(textnode);
+
+	rh_container = document.querySelector(".select_box.sang .container")
+	rh_container.classList.toggle("active");
+}
+
+
+
+
+
+/***********************************************************************************************/
+
+$('#myform').submit(function(){ //listen for submit event
+
+	$('<input />').attr('type', 'hidden')
+		.attr('name', 'sang')
+		.attr('value', sang.innerText)
+		.appendTo('#myform');
+
+	$('<input />').attr('type', 'hidden')
+		.attr('name', 'sang')
+		.attr('value', rhesus.innerText)
+		.appendTo('#myform');
+
+
+
+
+return true;
+}); 
+

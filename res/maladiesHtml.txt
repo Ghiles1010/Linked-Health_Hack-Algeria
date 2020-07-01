@@ -215,11 +215,6 @@
 								</div>
 								<div class = "options">
 									
-									<input type="radio" class="option" id="Cancer de la thyroïde">
-									<label for="Cancer de la thyroïde">Cancer de la thyroïde</label>
-								</div>
-								<div class = "options">
-									
 									<input type="radio" class="option" id="Diabète">
 									<label for="Diabète">Diabète</label>
 								</div>
@@ -315,16 +310,6 @@
 								</div>
 								<div class = "options">
 									
-									<input type="radio" class="option" id="Cancer du poumon, des bronches, de la plèvre">
-									<label for="Cancer du poumon, des bronches, de la plèvre">Cancer du poumon, des bronches, de la plèvre</label>
-								</div>
-								<div class = "options">
-									
-									<input type="radio" class="option" id="Cancer ORL (lèvre, bouche, pharynx, larynx...)">
-									<label for="Cancer ORL (lèvre, bouche, pharynx, larynx...)">Cancer ORL (lèvre, bouche, pharynx, larynx...)</label>
-								</div>
-								<div class = "options">
-									
 									<input type="radio" class="option" id="Dilatation des bronches">
 									<label for="Dilatation des bronches">Dilatation des bronches</label>
 								</div>
@@ -332,11 +317,6 @@
 									
 									<input type="radio" class="option" id="Fibrose pulmonaire">
 									<label for="Fibrose pulmonaire">Fibrose pulmonaire</label>
-								</div>
-								<div class = "options">
-									
-									<input type="radio" class="option" id="Mucoviscidose">
-									<label for="Mucoviscidose">Mucoviscidose</label>
 								</div>
 								<div class = "options">
 									
@@ -380,36 +360,6 @@
 								</div>
 								<div class = "options">
 									
-									<input type="radio" class="option" id="Cancer de l’estomac">
-									<label for="Cancer de l’estomac">Cancer de l’estomac</label>
-								</div>
-								<div class = "options">
-									
-									<input type="radio" class="option" id="Cancer de la vésicule biliaire">
-									<label for="Cancer de la vésicule biliaire">Cancer de la vésicule biliaire</label>
-								</div>
-								<div class = "options">
-									
-									<input type="radio" class="option" id="Cancer du colon">
-									<label for="Cancer du colon">Cancer du colon</label>
-								</div>
-								<div class = "options">
-									
-									<input type="radio" class="option" id="Cancer du foie">
-									<label for="Cancer du foie">Cancer du foie</label>
-								</div>
-								<div class = "options">
-									
-									<input type="radio" class="option" id="Cancer du pancréas">
-									<label for="Cancer du pancréas">Cancer du pancréas</label>
-								</div>
-								<div class = "options">
-									
-									<input type="radio" class="option" id="Cancer du rectum">
-									<label for="Cancer du rectum">Cancer du rectum</label>
-								</div>
-								<div class = "options">
-									
 									<input type="radio" class="option" id="Colopathie fonctionnelle, côlon irritable">
 									<label for="Colopathie fonctionnelle, côlon irritable">Colopathie fonctionnelle, côlon irritable</label>
 								</div>
@@ -437,11 +387,6 @@
 									
 									<input type="radio" class="option" id="Hépatite/Cirrhose métabolique">
 									<label for="Hépatite/Cirrhose métabolique">Hépatite/Cirrhose métabolique</label>
-								</div>
-								<div class = "options">
-									
-									<input type="radio" class="option" id="Insuffisance pancréatique (pancréatite chronique)">
-									<label for="Insuffisance pancréatique (pancréatite chronique)">Insuffisance pancréatique (pancréatite chronique)</label>
 								</div>
 								<div class = "options">
 									
@@ -497,11 +442,6 @@
 									
 									<input type="radio" class="option" id="Arthrose">
 									<label for="Arthrose">Arthrose</label>
-								</div>
-								<div class = "options">
-									
-									<input type="radio" class="option" id="Cancer des os">
-									<label for="Cancer des os">Cancer des os</label>
 								</div>
 								<div class = "options">
 									
@@ -615,11 +555,6 @@
 								</div>
 								<div class = "options">
 									
-									<input type="radio" class="option" id="Amyotrophie spinale proximale">
-									<label for="Amyotrophie spinale proximale">Amyotrophie spinale proximale</label>
-								</div>
-								<div class = "options">
-									
 									<input type="radio" class="option" id="Antécédent d’accident ischémique transitoire (AIT)">
 									<label for="Antécédent d’accident ischémique transitoire (AIT)">Antécédent d’accident ischémique transitoire (AIT)</label>
 								</div>
@@ -630,18 +565,8 @@
 								</div>
 								<div class = "options">
 									
-									<input type="radio" class="option" id="Cancer du cerveau">
-									<label for="Cancer du cerveau">Cancer du cerveau</label>
-								</div>
-								<div class = "options">
-									
 									<input type="radio" class="option" id="Céphalées chroniques (dont migraine)">
 									<label for="Céphalées chroniques (dont migraine)">Céphalées chroniques (dont migraine)</label>
-								</div>
-								<div class = "options">
-									
-									<input type="radio" class="option" id="Chorée de Huntington">
-									<label for="Chorée de Huntington">Chorée de Huntington</label>
 								</div>
 								<div class = "options">
 									
@@ -672,11 +597,6 @@
 									
 									<input type="radio" class="option" id="Maladie de Parkinson">
 									<label for="Maladie de Parkinson">Maladie de Parkinson</label>
-								</div>
-								<div class = "options">
-									
-									<input type="radio" class="option" id="Myasthénie">
-									<label for="Myasthénie">Myasthénie</label>
 								</div>
 								<div class = "options">
 									
@@ -730,11 +650,6 @@
 								</div>
 								<div class = "options">
 									
-									<input type="radio" class="option" id="Sclérose latérale amyotrophique">
-									<label for="Sclérose latérale amyotrophique">Sclérose latérale amyotrophique</label>
-								</div>
-								<div class = "options">
-									
 									<input type="radio" class="option" id="Syndrome de Guillain Barré">
 									<label for="Syndrome de Guillain Barré">Syndrome de Guillain Barré</label>
 								</div>
@@ -747,11 +662,6 @@
 									
 									<input type="radio" class="option" id="Syndrome des jambes sans repos">
 									<label for="Syndrome des jambes sans repos">Syndrome des jambes sans repos</label>
-								</div>
-								<div class = "options">
-									
-									<input type="radio" class="option" id="Syndrome douloureux régional complexe (SDRC 1/Algodystrophie et SDCR 2 /algoneurodystrophie)">
-									<label for="Syndrome douloureux régional complexe (SDRC 1/Algodystrophie et SDCR 2 /algoneurodystrophie)">Syndrome douloureux régional complexe (SDRC 1/Algodystrophie et SDCR 2 /algoneurodystrophie)</label>
 								</div>
 								<div class = "options">
 									
@@ -835,41 +745,6 @@
 								</div>
 								<div class = "options">
 									
-									<input type="radio" class="option" id="Cancer de l’ovaire">
-									<label for="Cancer de l’ovaire">Cancer de l’ovaire</label>
-								</div>
-								<div class = "options">
-									
-									<input type="radio" class="option" id="Cancer de la prostate">
-									<label for="Cancer de la prostate">Cancer de la prostate</label>
-								</div>
-								<div class = "options">
-									
-									<input type="radio" class="option" id="Cancer de la vessie">
-									<label for="Cancer de la vessie">Cancer de la vessie</label>
-								</div>
-								<div class = "options">
-									
-									<input type="radio" class="option" id="Cancer des testicules">
-									<label for="Cancer des testicules">Cancer des testicules</label>
-								</div>
-								<div class = "options">
-									
-									<input type="radio" class="option" id="Cancer du col de l’utérus">
-									<label for="Cancer du col de l’utérus">Cancer du col de l’utérus</label>
-								</div>
-								<div class = "options">
-									
-									<input type="radio" class="option" id="Cancer du rein">
-									<label for="Cancer du rein">Cancer du rein</label>
-								</div>
-								<div class = "options">
-									
-									<input type="radio" class="option" id="Cancer du sein">
-									<label for="Cancer du sein">Cancer du sein</label>
-								</div>
-								<div class = "options">
-									
 									<input type="radio" class="option" id="Endométriose">
 									<label for="Endométriose">Endométriose</label>
 								</div>
@@ -935,16 +810,6 @@
 								</div>
 								<div class = "options">
 									
-									<input type="radio" class="option" id="Cancer de la peau de type Carcinome baso-cellulaire">
-									<label for="Cancer de la peau de type Carcinome baso-cellulaire">Cancer de la peau de type Carcinome baso-cellulaire</label>
-								</div>
-								<div class = "options">
-									
-									<input type="radio" class="option" id="Cancer de la peau de type Carcinome spinocellulaire">
-									<label for="Cancer de la peau de type Carcinome spinocellulaire">Cancer de la peau de type Carcinome spinocellulaire</label>
-								</div>
-								<div class = "options">
-									
 									<input type="radio" class="option" id="Dermatite séborrhéique">
 									<label for="Dermatite séborrhéique">Dermatite séborrhéique</label>
 								</div>
@@ -972,11 +837,6 @@
 									
 									<input type="radio" class="option" id="Maladie de Verneuil / hidradénite suppurée">
 									<label for="Maladie de Verneuil / hidradénite suppurée">Maladie de Verneuil / hidradénite suppurée</label>
-								</div>
-								<div class = "options">
-									
-									<input type="radio" class="option" id="Mélanome">
-									<label for="Mélanome">Mélanome</label>
 								</div>
 								<div class = "options">
 									
@@ -1052,11 +912,6 @@
 									
 									<input type="radio" class="option" id="Sclérite/épisclérite">
 									<label for="Sclérite/épisclérite">Sclérite/épisclérite</label>
-								</div>
-								<div class = "options">
-									
-									<input type="radio" class="option" id="Syndrome de  ; Marfan">
-									<label for="Syndrome de  ; Marfan">Syndrome de  ; Marfan</label>
 								</div>
 								<div class = "options">
 									
@@ -1140,11 +995,6 @@
 								</div>
 								<div class = "options">
 									
-									<input type="radio" class="option" id="Sclérodermie">
-									<label for="Sclérodermie">Sclérodermie</label>
-								</div>
-								<div class = "options">
-									
 									<input type="radio" class="option" id="Syndrome de Goujerot-Sjögren">
 									<label for="Syndrome de Goujerot-Sjögren">Syndrome de Goujerot-Sjögren</label>
 								</div>
@@ -1152,16 +1002,6 @@
 									
 									<input type="radio" class="option" id="Syndrome des antiphospholipides">
 									<label for="Syndrome des antiphospholipides">Syndrome des antiphospholipides</label>
-								</div>
-								<div class = "options">
-									
-									<input type="radio" class="option" id="Syndrome de  ; Marfan">
-									<label for="Syndrome de  ; Marfan">Syndrome de  ; Marfan</label>
-								</div>
-								<div class = "options">
-									
-									<input type="radio" class="option" id="Syndromes d’Ehlers Danlos">
-									<label for="Syndromes d’Ehlers Danlos">Syndromes d’Ehlers Danlos</label>
 								</div>
 								<div class = "options">
 									

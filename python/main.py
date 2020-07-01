@@ -27,9 +27,9 @@ def results():
 def telemed():
 	return render_template("telemed.html")
 
-@app.route("/profilMed")
-def profilMed():
-	return render_template("profilMed.html")
+@app.route("/doctor_profile")
+def doctor_profile():
+	return render_template("doctor_profile.html")
 
 if __name__ == "__main__":
 	
