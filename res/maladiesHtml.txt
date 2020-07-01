@@ -1,0 +1,1198 @@
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Angor/angine de poitrine">
+									<label for="Angor/angine de poitrine">Angor/angine de poitrine</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Antécédent d’infarctus du myocarde">
+									<label for="Antécédent d’infarctus du myocarde">Antécédent d’infarctus du myocarde</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Antécédent de phlébite ou d’embolie pulmonaire">
+									<label for="Antécédent de phlébite ou d’embolie pulmonaire">Antécédent de phlébite ou d’embolie pulmonaire</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Artérite/artériopathie oblitérante des membres inférieurs">
+									<label for="Artérite/artériopathie oblitérante des membres inférieurs">Artérite/artériopathie oblitérante des membres inférieurs</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Arythmie cardiaque par fibrillation auriculaire">
+									<label for="Arythmie cardiaque par fibrillation auriculaire">Arythmie cardiaque par fibrillation auriculaire</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Cardiopathie congénitale">
+									<label for="Cardiopathie congénitale">Cardiopathie congénitale</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Hypercholestérolémie">
+									<label for="Hypercholestérolémie">Hypercholestérolémie</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Hypertension artérielle">
+									<label for="Hypertension artérielle">Hypertension artérielle</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Hypertension artérielle pulmonaire">
+									<label for="Hypertension artérielle pulmonaire">Hypertension artérielle pulmonaire</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Insuffisance cardiaque">
+									<label for="Insuffisance cardiaque">Insuffisance cardiaque</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Insuffisance veineuse chronique">
+									<label for="Insuffisance veineuse chronique">Insuffisance veineuse chronique</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Maladie de Kawasaki">
+									<label for="Maladie de Kawasaki">Maladie de Kawasaki</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Syndrome de  ; Marfan">
+									<label for="Syndrome de  ; Marfan">Syndrome de  ; Marfan</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Trouble de conduction (Pace Maker)">
+									<label for="Trouble de conduction (Pace Maker)">Trouble de conduction (Pace Maker)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Troubles du rythme cardiaque">
+									<label for="Troubles du rythme cardiaque">Troubles du rythme cardiaque</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Valvulopathie, Remplacement valvulaire">
+									<label for="Valvulopathie, Remplacement valvulaire">Valvulopathie, Remplacement valvulaire</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Autre maladie cardiaque ou vasculaire">
+									<label for="Autre maladie cardiaque ou vasculaire">Autre maladie cardiaque ou vasculaire</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Cancer de l’ omètre/du corps de l’utérus">
+									<label for="Cancer de l’ omètre/du corps de l’utérus">Cancer de l’ omètre/du corps de l’utérus</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Cancer de l’estomac">
+									<label for="Cancer de l’estomac">Cancer de l’estomac</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Cancer de l’œsophage">
+									<label for="Cancer de l’œsophage">Cancer de l’œsophage</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Cancer de l’ovaire">
+									<label for="Cancer de l’ovaire">Cancer de l’ovaire</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Cancer de la peau de type Carcinome baso-cellulaire">
+									<label for="Cancer de la peau de type Carcinome baso-cellulaire">Cancer de la peau de type Carcinome baso-cellulaire</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Cancer de la peau de type Carcinome spinocellulaire">
+									<label for="Cancer de la peau de type Carcinome spinocellulaire">Cancer de la peau de type Carcinome spinocellulaire</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Cancer de la prostate">
+									<label for="Cancer de la prostate">Cancer de la prostate</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Cancer de la thyroïde">
+									<label for="Cancer de la thyroïde">Cancer de la thyroïde</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Cancer de la vésicule biliaire">
+									<label for="Cancer de la vésicule biliaire">Cancer de la vésicule biliaire</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Cancer de la vessie">
+									<label for="Cancer de la vessie">Cancer de la vessie</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Cancer des os">
+									<label for="Cancer des os">Cancer des os</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Cancer des testicules">
+									<label for="Cancer des testicules">Cancer des testicules</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Cancer du cerveau">
+									<label for="Cancer du cerveau">Cancer du cerveau</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Cancer du col de l’utérus">
+									<label for="Cancer du col de l’utérus">Cancer du col de l’utérus</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Cancer du colon">
+									<label for="Cancer du colon">Cancer du colon</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Cancer du foie">
+									<label for="Cancer du foie">Cancer du foie</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Cancer du pancréas">
+									<label for="Cancer du pancréas">Cancer du pancréas</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Cancer du poumon, des bronches, de la plèvre">
+									<label for="Cancer du poumon, des bronches, de la plèvre">Cancer du poumon, des bronches, de la plèvre</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Cancer du rectum">
+									<label for="Cancer du rectum">Cancer du rectum</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Cancer du rein">
+									<label for="Cancer du rein">Cancer du rein</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Cancer du sein">
+									<label for="Cancer du sein">Cancer du sein</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Cancer ORL (lèvre, bouche, pharynx, larynx...)">
+									<label for="Cancer ORL (lèvre, bouche, pharynx, larynx...)">Cancer ORL (lèvre, bouche, pharynx, larynx...)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Mélanome">
+									<label for="Mélanome">Mélanome</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Autre cancer">
+									<label for="Autre cancer">Autre cancer</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Acromégalie">
+									<label for="Acromégalie">Acromégalie</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Adénome hypophysaire">
+									<label for="Adénome hypophysaire">Adénome hypophysaire</label>
+								</div>
+								<div class = "options">
+									
+
+									<input type="radio" class="option" id="Diabète">
+									<label for="Diabète">Diabète</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Diabète insipide">
+									<label for="Diabète insipide">Diabète insipide</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Hyperaldostéronisme primaire">
+									<label for="Hyperaldostéronisme primaire">Hyperaldostéronisme primaire</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Hyperprolactinémie">
+									<label for="Hyperprolactinémie">Hyperprolactinémie</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Hypothyroïdie">
+									<label for="Hypothyroïdie">Hypothyroïdie</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Insuffisance pancréatique (pancréatite chronique)">
+									<label for="Insuffisance pancréatique (pancréatite chronique)">Insuffisance pancréatique (pancréatite chronique)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Maladie d’Addison">
+									<label for="Maladie d’Addison">Maladie d’Addison</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Maladie d'Addision (insuffisance surrénalienne)">
+									<label for="Maladie d'Addision (insuffisance surrénalienne)">Maladie d'Addision (insuffisance surrénalienne)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Maladie de Basedow">
+									<label for="Maladie de Basedow">Maladie de Basedow</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Mucoviscidose">
+									<label for="Mucoviscidose">Mucoviscidose</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Obésité (si Indice de Masse Corporelle>30)">
+									<label for="Obésité (si Indice de Masse Corporelle>30)">Obésité (si Indice de Masse Corporelle>30)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Phéochromocytome">
+									<label for="Phéochromocytome">Phéochromocytome</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Syndrome de Cushing">
+									<label for="Syndrome de Cushing">Syndrome de Cushing</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Thyroïdite d’Hashimoto">
+									<label for="Thyroïdite d’Hashimoto">Thyroïdite d’Hashimoto</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Autre hyperthyroïdie">
+									<label for="Autre hyperthyroïdie">Autre hyperthyroïdie</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Autre maladie  ocrinienne">
+									<label for="Autre maladie  ocrinienne">Autre maladie  ocrinienne</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Apnée du sommeil">
+									<label for="Apnée du sommeil">Apnée du sommeil</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Asthme">
+									<label for="Asthme">Asthme</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Bronchite chronique, broncho pneumopathie chronique obstructive (BPCO), emphysème">
+									<label for="Bronchite chronique, broncho pneumopathie chronique obstructive (BPCO), emphysème">Bronchite chronique, broncho pneumopathie chronique obstructive (BPCO), emphysème</label>
+								</div>
+								<div class = "options">
+									
+
+									<input type="radio" class="option" id="Dilatation des bronches">
+									<label for="Dilatation des bronches">Dilatation des bronches</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Fibrose pulmonaire">
+									<label for="Fibrose pulmonaire">Fibrose pulmonaire</label>
+								</div>
+								<div class = "options">
+									
+
+									<input type="radio" class="option" id="Otospongiose">
+									<label for="Otospongiose">Otospongiose</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Pneumopathie interstitielle (fibrose idiopathique, pneumonie d'hypersensibilité)">
+									<label for="Pneumopathie interstitielle (fibrose idiopathique, pneumonie d'hypersensibilité)">Pneumopathie interstitielle (fibrose idiopathique, pneumonie d'hypersensibilité)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Polypose naso-sinusiennes">
+									<label for="Polypose naso-sinusiennes">Polypose naso-sinusiennes</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Rhinite chronique">
+									<label for="Rhinite chronique">Rhinite chronique</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Sinusite chronique">
+									<label for="Sinusite chronique">Sinusite chronique</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Trouble stomatologique ou maxillofacial (SADAM)">
+									<label for="Trouble stomatologique ou maxillofacial (SADAM)">Trouble stomatologique ou maxillofacial (SADAM)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Vertiges (Maladie de Menière, vertige paroxystique positionnel bénin)">
+									<label for="Vertiges (Maladie de Menière, vertige paroxystique positionnel bénin)">Vertiges (Maladie de Menière, vertige paroxystique positionnel bénin)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Autre maladie ORL ou respiratoire">
+									<label for="Autre maladie ORL ou respiratoire">Autre maladie ORL ou respiratoire</label>
+								</div>
+								<div class = "options">
+									
+
+									<input type="radio" class="option" id="Colopathie fonctionnelle, côlon irritable">
+									<label for="Colopathie fonctionnelle, côlon irritable">Colopathie fonctionnelle, côlon irritable</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Diverticules">
+									<label for="Diverticules">Diverticules</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Hépatite/Cirrhose alcoolique">
+									<label for="Hépatite/Cirrhose alcoolique">Hépatite/Cirrhose alcoolique</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Hépatite/Cirrhose auto-immune">
+									<label for="Hépatite/Cirrhose auto-immune">Hépatite/Cirrhose auto-immune</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Hépatite/Cirrhose infectieuse">
+									<label for="Hépatite/Cirrhose infectieuse">Hépatite/Cirrhose infectieuse</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Hépatite/Cirrhose métabolique">
+									<label for="Hépatite/Cirrhose métabolique">Hépatite/Cirrhose métabolique</label>
+								</div>
+								<div class = "options">
+									
+
+									<input type="radio" class="option" id="Maladie cœliaque">
+									<label for="Maladie cœliaque">Maladie cœliaque</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Maladie de Crohn">
+									<label for="Maladie de Crohn">Maladie de Crohn</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Polypes coliques">
+									<label for="Polypes coliques">Polypes coliques</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Rectocolite hémorragique (RCH)">
+									<label for="Rectocolite hémorragique (RCH)">Rectocolite hémorragique (RCH)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Reflux gastro œsophagien, achalasie, hernie hiatale">
+									<label for="Reflux gastro œsophagien, achalasie, hernie hiatale">Reflux gastro œsophagien, achalasie, hernie hiatale</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Ulcère gastro duodénal, gastrite chronique">
+									<label for="Ulcère gastro duodénal, gastrite chronique">Ulcère gastro duodénal, gastrite chronique</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Autre maladie du foie">
+									<label for="Autre maladie du foie">Autre maladie du foie</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Autre maladie du système digestif">
+									<label for="Autre maladie du système digestif">Autre maladie du système digestif</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Amyotrophie spinale proximale">
+									<label for="Amyotrophie spinale proximale">Amyotrophie spinale proximale</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Arthropathies microcristallines (goutte, chondrocalcinose)">
+									<label for="Arthropathies microcristallines (goutte, chondrocalcinose)">Arthropathies microcristallines (goutte, chondrocalcinose)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Arthrose">
+									<label for="Arthrose">Arthrose</label>
+								</div>
+								<div class = "options">
+									
+
+									<input type="radio" class="option" id="Cervicalgie chronique, dorsalgie chronique (douleur du haut du dos, hernie discale cervicale, hernie discale dorsale)">
+									<label for="Cervicalgie chronique, dorsalgie chronique (douleur du haut du dos, hernie discale cervicale, hernie discale dorsale)">Cervicalgie chronique, dorsalgie chronique (douleur du haut du dos, hernie discale cervicale, hernie discale dorsale)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Chorée de Huntington">
+									<label for="Chorée de Huntington">Chorée de Huntington</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Fibromyalgie">
+									<label for="Fibromyalgie">Fibromyalgie</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Le syndrome de Gilbert">
+									<label for="Le syndrome de Gilbert">Le syndrome de Gilbert</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Lombalgie chronique (douleur du bas du dos, hernie discale lombaire, sciatique)">
+									<label for="Lombalgie chronique (douleur du bas du dos, hernie discale lombaire, sciatique)">Lombalgie chronique (douleur du bas du dos, hernie discale lombaire, sciatique)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Maladie de Paget">
+									<label for="Maladie de Paget">Maladie de Paget</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Maladie de Raynaud">
+									<label for="Maladie de Raynaud">Maladie de Raynaud</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Maladie de Still de l'adulte">
+									<label for="Maladie de Still de l'adulte">Maladie de Still de l'adulte</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Myasthénie">
+									<label for="Myasthénie">Myasthénie</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Ostéoporose">
+									<label for="Ostéoporose">Ostéoporose</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Polyarthrite rhumatoïde">
+									<label for="Polyarthrite rhumatoïde">Polyarthrite rhumatoïde</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Rhumatisme psoriasique">
+									<label for="Rhumatisme psoriasique">Rhumatisme psoriasique</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Scoliose">
+									<label for="Scoliose">Scoliose</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Spondyloarthrite axiale (anciennement spondylarthrite ankylosante)">
+									<label for="Spondyloarthrite axiale (anciennement spondylarthrite ankylosante)">Spondyloarthrite axiale (anciennement spondylarthrite ankylosante)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Syndrome de fatigue chronique">
+									<label for="Syndrome de fatigue chronique">Syndrome de fatigue chronique</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Syndrome douloureux régional complexe (SDRC 1/Algodystrophie et SDCR 2 /algoneurodystrophie)">
+									<label for="Syndrome douloureux régional complexe (SDRC 1/Algodystrophie et SDCR 2 /algoneurodystrophie)">Syndrome douloureux régional complexe (SDRC 1/Algodystrophie et SDCR 2 /algoneurodystrophie)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Syndromes canalaires (Syndrome du canal carpien, Syndrome de la loge de Guyon…)">
+									<label for="Syndromes canalaires (Syndrome du canal carpien, Syndrome de la loge de Guyon…)">Syndromes canalaires (Syndrome du canal carpien, Syndrome de la loge de Guyon…)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Syndromes d’Ehlers Danlos">
+									<label for="Syndromes d’Ehlers Danlos">Syndromes d’Ehlers Danlos</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Syndrome de Marfan">
+									<label for="Syndrome de Marfan">Syndrome de Marfan</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="T inites chroniques (périarthrite, épicondylite, capsulite...)">
+									<label for="T inites chroniques (périarthrite, épicondylite, capsulite...)">T inites chroniques (périarthrite, épicondylite, capsulite...)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Autre maladie rhumatologique">
+									<label for="Autre maladie rhumatologique">Autre maladie rhumatologique</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Algie vasculaire de la face">
+									<label for="Algie vasculaire de la face">Algie vasculaire de la face</label>
+								</div>
+								<div class = "options">
+									
+
+									<input type="radio" class="option" id="Antécédent d’accident ischémique transitoire (AIT)">
+									<label for="Antécédent d’accident ischémique transitoire (AIT)">Antécédent d’accident ischémique transitoire (AIT)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Antécédent d’accident vasculaire cérébral (AVC)">
+									<label for="Antécédent d’accident vasculaire cérébral (AVC)">Antécédent d’accident vasculaire cérébral (AVC)</label>
+								</div>
+								<div class = "options">
+									
+
+									<input type="radio" class="option" id="Céphalées chroniques (dont migraine)">
+									<label for="Céphalées chroniques (dont migraine)">Céphalées chroniques (dont migraine)</label>
+								</div>
+								<div class = "options">
+									
+
+									<input type="radio" class="option" id="Démence vasculaire">
+									<label for="Démence vasculaire">Démence vasculaire</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Dystrophie musculaire de Duchenne">
+									<label for="Dystrophie musculaire de Duchenne">Dystrophie musculaire de Duchenne</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Epilepsie">
+									<label for="Epilepsie">Epilepsie</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Kystes de Tarlov, kyste péri-radiculaire, kyste méningé sacré">
+									<label for="Kystes de Tarlov, kyste péri-radiculaire, kyste méningé sacré">Kystes de Tarlov, kyste péri-radiculaire, kyste méningé sacré</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Maladie d’Alzheimer">
+									<label for="Maladie d’Alzheimer">Maladie d’Alzheimer</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Maladie de Parkinson">
+									<label for="Maladie de Parkinson">Maladie de Parkinson</label>
+								</div>
+								<div class = "options">
+									
+
+									<input type="radio" class="option" id="Myopathie acquise (inflammatoire, autre)">
+									<label for="Myopathie acquise (inflammatoire, autre)">Myopathie acquise (inflammatoire, autre)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Myopathie acquise (inflammatoire, dermatomyosite, polymyosite, autre)">
+									<label for="Myopathie acquise (inflammatoire, dermatomyosite, polymyosite, autre)">Myopathie acquise (inflammatoire, dermatomyosite, polymyosite, autre)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Myopathie génétique">
+									<label for="Myopathie génétique">Myopathie génétique</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Narcolepsie">
+									<label for="Narcolepsie">Narcolepsie</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Neuropathie périphérique">
+									<label for="Neuropathie périphérique">Neuropathie périphérique</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Névralgie d’Arnold">
+									<label for="Névralgie d’Arnold">Névralgie d’Arnold</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Névralgie du trijumeau">
+									<label for="Névralgie du trijumeau">Névralgie du trijumeau</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Polyradiculonévrite chronique">
+									<label for="Polyradiculonévrite chronique">Polyradiculonévrite chronique</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Sclérose latérale amyotrophique">
+									<label for="Sclérose latérale amyotrophique">Sclérose latérale amyotrophique</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Sclérose en plaque">
+									<label for="Sclérose en plaque">Sclérose en plaque</label>
+								</div>
+								<div class = "options">
+									
+
+									<input type="radio" class="option" id="Syndrome de Guillain Barré">
+									<label for="Syndrome de Guillain Barré">Syndrome de Guillain Barré</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Syndrome de Rett">
+									<label for="Syndrome de Rett">Syndrome de Rett</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Syndrome des jambes sans repos">
+									<label for="Syndrome des jambes sans repos">Syndrome des jambes sans repos</label>
+								</div>
+								<div class = "options">
+									
+
+									<input type="radio" class="option" id="Autres démences">
+									<label for="Autres démences">Autres démences</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Autre maladie neurologique">
+									<label for="Autre maladie neurologique">Autre maladie neurologique</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Autres syndromes parkinsoniens">
+									<label for="Autres syndromes parkinsoniens">Autres syndromes parkinsoniens</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Addictions (alcool, jeux, autres drogues...)">
+									<label for="Addictions (alcool, jeux, autres drogues...)">Addictions (alcool, jeux, autres drogues...)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Autisme">
+									<label for="Autisme">Autisme</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Dépression">
+									<label for="Dépression">Dépression</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Psychose chronique (schizophrénie...)">
+									<label for="Psychose chronique (schizophrénie...)">Psychose chronique (schizophrénie...)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Syndrome de stress post traumatique">
+									<label for="Syndrome de stress post traumatique">Syndrome de stress post traumatique</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Trouble bipolaire, maladie maniaco-dépressive">
+									<label for="Trouble bipolaire, maladie maniaco-dépressive">Trouble bipolaire, maladie maniaco-dépressive</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Trouble de la personnalité">
+									<label for="Trouble de la personnalité">Trouble de la personnalité</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Trouble déficit d'attention/hyperactivité (TDAH)">
+									<label for="Trouble déficit d'attention/hyperactivité (TDAH)">Trouble déficit d'attention/hyperactivité (TDAH)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Trouble du comportement alimentaire (anorexie, boulimie…)">
+									<label for="Trouble du comportement alimentaire (anorexie, boulimie…)">Trouble du comportement alimentaire (anorexie, boulimie…)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Troubles anxieux">
+									<label for="Troubles anxieux">Troubles anxieux</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Troubles obsessionnels compulsifs : TOC">
+									<label for="Troubles obsessionnels compulsifs : TOC">Troubles obsessionnels compulsifs : TOC</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Autre maladie psychiatrique">
+									<label for="Autre maladie psychiatrique">Autre maladie psychiatrique</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Cancer de l’ omètre/ du corps de l’utérus">
+									<label for="Cancer de l’ omètre/ du corps de l’utérus">Cancer de l’ omètre/ du corps de l’utérus</label>
+								</div>
+								<div class = "options">
+									
+
+									<input type="radio" class="option" id="Endométriose">
+									<label for="Endométriose">Endométriose</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Fibrome utérin">
+									<label for="Fibrome utérin">Fibrome utérin</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Hypertrophie (adénome) bénigne de la prostate">
+									<label for="Hypertrophie (adénome) bénigne de la prostate">Hypertrophie (adénome) bénigne de la prostate</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Incontinence urinaire">
+									<label for="Incontinence urinaire">Incontinence urinaire</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Insuffisance rénale chronique">
+									<label for="Insuffisance rénale chronique">Insuffisance rénale chronique</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Kyste ovarien">
+									<label for="Kyste ovarien">Kyste ovarien</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Lithiase urinaire chronique (calculs rénaux)">
+									<label for="Lithiase urinaire chronique (calculs rénaux)">Lithiase urinaire chronique (calculs rénaux)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Maladie de Berger">
+									<label for="Maladie de Berger">Maladie de Berger</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Polykystose rénale">
+									<label for="Polykystose rénale">Polykystose rénale</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Trouble de la fertilité">
+									<label for="Trouble de la fertilité">Trouble de la fertilité</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Trouble érectile">
+									<label for="Trouble érectile">Trouble érectile</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Autre maladie rénale, urinaire ou génitale">
+									<label for="Autre maladie rénale, urinaire ou génitale">Autre maladie rénale, urinaire ou génitale</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Acné">
+									<label for="Acné">Acné</label>
+								</div>
+								<div class = "options">
+									
+
+									<input type="radio" class="option" id="Dermatite séborrhéique">
+									<label for="Dermatite séborrhéique">Dermatite séborrhéique</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Dermatose bulleuse chronique">
+									<label for="Dermatose bulleuse chronique">Dermatose bulleuse chronique</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Eczéma">
+									<label for="Eczéma">Eczéma</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Epidermolyse bulleuse">
+									<label for="Epidermolyse bulleuse">Epidermolyse bulleuse</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Herpes">
+									<label for="Herpes">Herpes</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Maladie de Verneuil / hidradénite suppurée">
+									<label for="Maladie de Verneuil / hidradénite suppurée">Maladie de Verneuil / hidradénite suppurée</label>
+								</div>
+								<div class = "options">
+									
+
+									<input type="radio" class="option" id="Pelade">
+									<label for="Pelade">Pelade</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Psoriasis">
+									<label for="Psoriasis">Psoriasis</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Rosacée">
+									<label for="Rosacée">Rosacée</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Sclérodermie">
+									<label for="Sclérodermie">Sclérodermie</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Ulcère de jambe">
+									<label for="Ulcère de jambe">Ulcère de jambe</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Urticaire">
+									<label for="Urticaire">Urticaire</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Vitiligo">
+									<label for="Vitiligo">Vitiligo</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Zona">
+									<label for="Zona">Zona</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Autre maladie de la peau">
+									<label for="Autre maladie de la peau">Autre maladie de la peau</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Cataracte">
+									<label for="Cataracte">Cataracte</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Décollement de rétine ou décollement du vitré">
+									<label for="Décollement de rétine ou décollement du vitré">Décollement de rétine ou décollement du vitré</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Dégénérescence maculaire (DMLA)">
+									<label for="Dégénérescence maculaire (DMLA)">Dégénérescence maculaire (DMLA)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Glaucome chronique">
+									<label for="Glaucome chronique">Glaucome chronique</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Rétinopathie">
+									<label for="Rétinopathie">Rétinopathie</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Sclérite/épisclérite">
+									<label for="Sclérite/épisclérite">Sclérite/épisclérite</label>
+								</div>
+								<div class = "options">
+									
+
+									<input type="radio" class="option" id="Trouble de la vision (myopie, presbytie, astigmatisme)">
+									<label for="Trouble de la vision (myopie, presbytie, astigmatisme)">Trouble de la vision (myopie, presbytie, astigmatisme)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Uvéite">
+									<label for="Uvéite">Uvéite</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Autre maladie des yeux">
+									<label for="Autre maladie des yeux">Autre maladie des yeux</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Allergie">
+									<label for="Allergie">Allergie</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Amylose">
+									<label for="Amylose">Amylose</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Cryoglobulinémie">
+									<label for="Cryoglobulinémie">Cryoglobulinémie</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Hystiocytose">
+									<label for="Hystiocytose">Hystiocytose</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Lupus">
+									<label for="Lupus">Lupus</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Maladie de Behçet">
+									<label for="Maladie de Behçet">Maladie de Behçet</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Maladie de Churg et Strauss (granulomatose avec polyangéite)">
+									<label for="Maladie de Churg et Strauss (granulomatose avec polyangéite)">Maladie de Churg et Strauss (granulomatose avec polyangéite)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Maladie de Horton (artérite à cellules géantes)">
+									<label for="Maladie de Horton (artérite à cellules géantes)">Maladie de Horton (artérite à cellules géantes)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Maladie de Takayasu">
+									<label for="Maladie de Takayasu">Maladie de Takayasu</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Maladie de Wegener (granulomatose avec polyangéite)">
+									<label for="Maladie de Wegener (granulomatose avec polyangéite)">Maladie de Wegener (granulomatose avec polyangéite)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Périartérite noueuse">
+									<label for="Périartérite noueuse">Périartérite noueuse</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Polyangéite microscopique">
+									<label for="Polyangéite microscopique">Polyangéite microscopique</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Sarcoïdose">
+									<label for="Sarcoïdose">Sarcoïdose</label>
+								</div>
+								<div class = "options">
+									
+
+									<input type="radio" class="option" id="Syndrome de Goujerot-Sjögren">
+									<label for="Syndrome de Goujerot-Sjögren">Syndrome de Goujerot-Sjögren</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Syndrome des antiphospholipides">
+									<label for="Syndrome des antiphospholipides">Syndrome des antiphospholipides</label>
+								</div>
+								<div class = "options">
+									
+
+									<input type="radio" class="option" id="Autre maladie systémique">
+									<label for="Autre maladie systémique">Autre maladie systémique</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Endocardite">
+									<label for="Endocardite">Endocardite</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Hépatite B">
+									<label for="Hépatite B">Hépatite B</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Hépatite C">
+									<label for="Hépatite C">Hépatite C</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Infection ostéo-articulaire (arthrite/spondylodiscite)">
+									<label for="Infection ostéo-articulaire (arthrite/spondylodiscite)">Infection ostéo-articulaire (arthrite/spondylodiscite)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Infection par le VIH, SIDA">
+									<label for="Infection par le VIH, SIDA">Infection par le VIH, SIDA</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Maladie de Lyme">
+									<label for="Maladie de Lyme">Maladie de Lyme</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Tuberculose">
+									<label for="Tuberculose">Tuberculose</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Autre maladie infectieuse chronique">
+									<label for="Autre maladie infectieuse chronique">Autre maladie infectieuse chronique</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Anémie de Biermer (anémie mégaloblastique, anémie pernicieuse)">
+									<label for="Anémie de Biermer (anémie mégaloblastique, anémie pernicieuse)">Anémie de Biermer (anémie mégaloblastique, anémie pernicieuse)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Anémie de Fanconi">
+									<label for="Anémie de Fanconi">Anémie de Fanconi</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Anémie hémolytique auto-immune">
+									<label for="Anémie hémolytique auto-immune">Anémie hémolytique auto-immune</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Aplasie médullaire">
+									<label for="Aplasie médullaire">Aplasie médullaire</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Autres hémolyses constitutionnelles (thalassémies, sphérocytose…)">
+									<label for="Autres hémolyses constitutionnelles (thalassémies, sphérocytose…)">Autres hémolyses constitutionnelles (thalassémies, sphérocytose…)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Bêta-thalassémie">
+									<label for="Bêta-thalassémie">Bêta-thalassémie</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Déficit en facteur de coagulation/troubles de coagulation">
+									<label for="Déficit en facteur de coagulation/troubles de coagulation">Déficit en facteur de coagulation/troubles de coagulation</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Déficit immunitaire (hors VIH)">
+									<label for="Déficit immunitaire (hors VIH)">Déficit immunitaire (hors VIH)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Drépanocytose">
+									<label for="Drépanocytose">Drépanocytose</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Hémochromatose">
+									<label for="Hémochromatose">Hémochromatose</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Hémophilie">
+									<label for="Hémophilie">Hémophilie</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Leucémie aiguë">
+									<label for="Leucémie aiguë">Leucémie aiguë</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Leucémie lymphoïde chronique">
+									<label for="Leucémie lymphoïde chronique">Leucémie lymphoïde chronique</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Leucémie myéloïde chronique">
+									<label for="Leucémie myéloïde chronique">Leucémie myéloïde chronique</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Lymphome B à grandes cellules">
+									<label for="Lymphome B à grandes cellules">Lymphome B à grandes cellules</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Maladie de Hodgkin">
+									<label for="Maladie de Hodgkin">Maladie de Hodgkin</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Maladie de Vaquez">
+									<label for="Maladie de Vaquez">Maladie de Vaquez</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Microangiopathie thrombotique (SHU, PTT)">
+									<label for="Microangiopathie thrombotique (SHU, PTT)">Microangiopathie thrombotique (SHU, PTT)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Myélome (gammapathie monoclonale, MGUS, plasmocytome, maladie de Waldenström)">
+									<label for="Myélome (gammapathie monoclonale, MGUS, plasmocytome, maladie de Waldenström)">Myélome (gammapathie monoclonale, MGUS, plasmocytome, maladie de Waldenström)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Porphyries">
+									<label for="Porphyries">Porphyries</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Purpura thrombopénique immunologique">
+									<label for="Purpura thrombopénique immunologique">Purpura thrombopénique immunologique</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Syndrome de Wiskott-Aldrich">
+									<label for="Syndrome de Wiskott-Aldrich">Syndrome de Wiskott-Aldrich</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Syndrome myélodysplasique">
+									<label for="Syndrome myélodysplasique">Syndrome myélodysplasique</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Syndrome myéloprolifératif (polyglobulie, thrombocytémie essentielle, myélofibrose primitive)">
+									<label for="Syndrome myéloprolifératif (polyglobulie, thrombocytémie essentielle, myélofibrose primitive)">Syndrome myéloprolifératif (polyglobulie, thrombocytémie essentielle, myélofibrose primitive)</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Autres Lymphomes">
+									<label for="Autres Lymphomes">Autres Lymphomes</label>
+								</div>
+								<div class = "options">
+									
+									<input type="radio" class="option" id="Autre maladie du sang">
+									<label for="Autre maladie du sang">Autre maladie du sang</label>
+								</div>

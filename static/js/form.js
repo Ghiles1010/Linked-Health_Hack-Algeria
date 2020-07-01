@@ -1,7 +1,7 @@
 const selectedAll = document.querySelectorAll(".select");
 const maladies_container = document.querySelector(".container.maladies");
 
-
+alert("text");
 
 selectedAll.forEach( (selected) => {
 	
@@ -163,9 +163,20 @@ $('#myform').submit(function(){ //listen for submit event
 		.attr('value', rhesus.innerText)
 		.appendTo('#myform');
 
+		
+
 
 
 
 return true;
 }); 
 
+/************************************************************************************/
+
+const switch_in = document.querySelector(".switch input");
+
+switch_in.addEventListener("click", () => {
+
+	alert("text");
+
+});
