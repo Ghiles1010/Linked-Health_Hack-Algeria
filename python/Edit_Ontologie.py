@@ -24,7 +24,7 @@ def enum_class(onto):
     return liste
 
 #Cette fonction nous permet de créer un patient dans notre ontologie
-def create_patient(Id,nom, prenom, e_mail,password,tel,date_de_naissance, sexe,adresse, groupe_sanguin, rhesus, profession, antecedent_perso,antecedent_famille,  autre_chose):
+def create_patient(nom, prenom, e_mail,tel,date_de_naissance, sexe,adresse,profession, antecedent_perso,antecedent_famille,  autre_chose):
 
     #On recupere la classe "Patient" de notre liste
     class_patient = list_class[9]
@@ -32,17 +32,16 @@ def create_patient(Id,nom, prenom, e_mail,password,tel,date_de_naissance, sexe,a
     P = class_patient()
 
     #A partir de la on va instancier les valeurs des attributs de notre objet patient
-    P.patientID = P.iri.split('#')[-1]
+    P.iri = ns + e_mail
     P.Nom = nom
     P.Prenom.append(prenom)
     P.Email = e_mail
-    P.Password = password
     P.Sexe = sexe
     P.Telephone = tel
     P.DateDeNaissance = date_de_naissance
     P.Adresse = adresse
-    P.GroupeSanguin = groupe_sanguin
-    P.Rhesus = rhesus
+    #P.GroupeSanguin = groupe_sanguin
+    #P.Rhesus = rhesus
     P.Profession = profession
     P.AntecedentPerso.append(antecedent_perso)
     P.AntecedentFamille.append(antecedent_famille)
@@ -51,32 +50,42 @@ def create_patient(Id,nom, prenom, e_mail,password,tel,date_de_naissance, sexe,a
 
 
     #Au lieu d'utiliser une requete sparql , on utilise la fonction search de owlready afin de pouvoir trouver les maladies chroniques de patient existante dans notre base rdf pour les lier , et si il n'existe pas on le crée puis on les lie
-    '''list_maladiechronique = maladiechronique.split(',')
-    for j in list_maladiechronique:
-        requete = """
-                    prefix ns1: <http://sararaouf.org/onto.owl#> 
-                    prefix ns2: <http://www.w3.org/2002/07/owl#> 
-                    prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
-                    prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
-                    prefix xml: <http://www.w3.org/XML/1998/namespace> 
-                    prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
-                    SELECT     ?m ?mn
-                    WHERE{
-                    ?m rdf:type ns1:MaladieChronique .
-                    ?m ns1:nomMaladie ?mn.
-                     FILTER regex(?mn,"var")  
-                    }
-                    """.replace("var", j.replace(" ", "_"))
-        result = graph.query(requete)
-        if (list(result) == []):
-            class_mch = list_class[5]
-            M = class_mch()
-            M.nomMaladie = ns + j.replace(" ", "_")
-            P.estMaladeDe.append(M)
-        else:
-            P.estMaladeDe.append(onto.search(iri=list(result)[0][0])[0])'''
+    #list_maladiechronique = maladiechronique.split(',')
+    #for j in list_maladiechronique:
+    #    requete = """
+    #                prefix ns1: <http://sararaouf.org/onto.owl#> 
+    #                prefix ns2: <http://www.w3.org/2002/07/owl#> 
+    #                prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+    #                prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+    #                prefix xml: <http://www.w3.org/XML/1998/namespace> 
+    #                prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+    #                SELECT     ?m ?mn
+    #                WHERE{
+    #                ?m rdf:type ns1:MaladieChronique .
+    #                ?m ns1:nomMaladie ?mn.
+    #                 FILTER regex(?mn,"var")  
+    #                }
+    #                """.replace("var", j.replace(" ", "_"))
+    #    result = graph.query(requete)
+    #    if (list(result) == []):
+    #        class_mch = list_class[5]
+    #        M = class_mch()
+    #        M.nomMaladie = ns + j.replace(" ", "_")
+    #        P.estMaladeDe.append(M)
+    #    else:
+    #        P.estMaladeDe.append(onto.search(iri=list(result)[0][0])[0])
 
+def authentification(email,motdepass):
+    if (onto.search(iri="*"+email)[0]== []):
+        print("Erreur : Adresse mail introuvable")
+    else :
+        P = onto.search(iri="*"+email)[0]
+        if(P.Password != motdepass):
+            print("Erreur : Mot de passe incorrect")
+        else:
+            print("utilisateur trouvé")
     
+
 #Cette fonction quant a elle nous permets de créer un objet medecin dans notre base rdf
 def create_medecin(nom, prenom, e_mail,tel,specialite):
     class_medecin = list_class[6]
@@ -356,12 +365,13 @@ graph.serialize("sortieturtle.rdf",format="turtle")
 
 
 
+'''
 enrichissementwilaya("wilaya.csv")
 enrichissementdaira("communes.csv")
 enrichissementsymp("sym.txt")
 enrichissementsympcov("sym_covid.txt")
 enrichissementmaladiechronique("maladie_chronique.txt")
-enrichissementspecialite("specialite_medecine.txt")
+enrichissementspecialite("specialite_medecine.txt")'''
 
 #fromcsvtordf("./test.csv")
 
@@ -380,8 +390,8 @@ enrichissementspecialite("specialite_medecine.txt")
 
 
 #On invoque le raisonneur Hermit
-#owlready2.JAVA_EXE = "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath\\java.exe"
-#sync_reasoner()
+owlready2.JAVA_EXE = "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath\\java.exe"
+sync_reasoner()
 
 
 #On sauvegarde notre ontologie
