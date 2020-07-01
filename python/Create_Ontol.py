@@ -38,14 +38,6 @@ with onto:
 
 
 
-
-    
-
-    class Nom(DataProperty):
-        range = [str]
-        domain = [Humain]
-
-
     class Patient(Humain):
         pass
 

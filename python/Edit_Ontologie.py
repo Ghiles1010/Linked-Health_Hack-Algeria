@@ -107,8 +107,8 @@ def fromcsvtordf(path):
     patients = pd.read_csv(path,encoding='latin-1')
     for i in range(len(patients)):
         patient = patients.iloc[i]
-        create_patient(patient[0], patient[1], patient[2], int(patient[3]), patient[4], patient[5], patient[6],
-                       patient[7], int(patient[8]), int(patient[9]), patient[10], patient[11],patient[12])
+       # create_patient(patient[0], patient[1], patient[2], int(patient[3]), patient[4], patient[5], patient[6],
+         #              patient[7], int(patient[8]), int(patient[9]), patient[10], patient[11],patient[12])
 
 
 #Les fonctions d'enrichissements
