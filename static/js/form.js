@@ -159,7 +159,7 @@ $('#myform').submit(function(){ //listen for submit event
 		.appendTo('#myform');
 
 	$('<input />').attr('type', 'hidden')
-		.attr('name', 'sang')
+		.attr('name', 'rhesus')
 		.attr('value', rhesus.innerText)
 		.appendTo('#myform');
 
