@@ -78,6 +78,10 @@ def dossier():
 def auth_patient():
 	return render_template("auth_patient.html")
 
+@app.route("/auth_doctor")
+def auth_doctor():
+	return render_template("auth_doctor.html")
+
 
 def get_frame():
 	camera_port=0
@@ -92,9 +96,6 @@ def get_frame():
 
 	del(camera)
 
-@app.route("/doctor_profile")
-def doctor_profile():
-	return render_template("doctor_profile.html")
 
 @app.route('/calc')
 def calc():
