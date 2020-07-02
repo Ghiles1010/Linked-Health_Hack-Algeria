@@ -42,6 +42,11 @@ def form():
 def form_doc():
 	return render_template("form_doc.html")
 
+@app.route("/qr")
+def qr():
+	return render_template("qr.html")
+
+
 @app.route("/login", methods = ['GET', 'POST'])
 def login():
 	if request.method == "POST":
@@ -68,6 +73,10 @@ def telemed():
 @app.route("/dossier")
 def dossier():
 	return render_template("dossier.html")
+
+@app.route("/auth_patient")
+def auth_patient():
+	return render_template("auth_patient.html")
 
 
 def get_frame():

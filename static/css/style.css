@@ -5,9 +5,11 @@
 }
 
 html, body {
-  height: 100%;
   margin: 0;
+  height: 100%;
 }
+
+
 
 /************************************************************************/
 
@@ -217,9 +219,11 @@ body
 
 footer
 {
+	
 	color:black;
 	display:flex;
 	justify-content:space-around;
 	
 	
 }
+
