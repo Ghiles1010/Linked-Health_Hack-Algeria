@@ -12,7 +12,6 @@
 		
 		<header>
 		
-			<h2 id = "logo">Linked-Health</h2>
 			
 			<ul class="nav">
 				
@@ -22,36 +21,43 @@
 				
 			</ul>
 		
-			<button id="connect">Se connecter </button>
+			<button id="connect">Je suis médecin</button>
 			
 		</header>
 		
 		
 
-		<section class = "welcome">
-		
-			<h1>Bienvenue sur Linked-Health !</h1>
+
 			
-			<h4>
-				Nous allons vous créer un dossier médical pour une prise en charge optimale !
-				<br/>
-				inscrivez-vous !
-			</h4>
-			
-			<button class="register">S'inscrire </button>
-			
-			<img src="{{ url_for('static', filename='images/nurse.png')}}" alt="Girl in a jacket">
-			
-			
-		</section>
-		
+			<div class = "welcome">
+				<div class = "title">
+
+					<h1>Linked-Health</h1>
+					<h3> Ayez votre santé en poche !</h3>
+					
+
+					<button>Mon QR coder</button>
+					
+				</div>
+
+				<div class = "illustration">
+
+					
+
+					<img src="{{ url_for('static', filename='images/qrqr.png')}}" alt="Girl in a jacket">
+					<p>Inscrivez vous dans le centre médical 
+						le plus proche de chez vous, bénéficiez 
+						d'un suivi médical optimal !</p>
+					</p>
+				</div>	
+			</div>	
+
+			<div class = "bande">
+				
+			</div>
 
 	</body>
-	
-	<footer>
-	<h1>About</h1>
-	<h1>Contact us</h1>
-	<h1>Credits</h1>
 
-	</footer>
+	
+
 </html>

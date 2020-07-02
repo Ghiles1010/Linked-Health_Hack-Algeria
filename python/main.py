@@ -50,6 +50,10 @@ def results():
 def telemed():
 	return render_template("telemed.html")
 
+@app.route("/dossier")
+def dossier():
+	return render_template("dossier.html")
+
 
 def get_frame():
 	camera_port=0

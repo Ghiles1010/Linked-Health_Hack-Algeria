@@ -9,195 +9,103 @@ html, body {
 	
 
 	font-size:10pt;
-	 margin: 0;
-}
-
-#logo
-{
-	margin-right: auto;
-	margin-left:10px;
-	color: white;
-	padding-left:10px;
-}
-
-header
-{
-
-	background-color:#4234A3;
-	display: flex;
-	justify-content: flex-end;
-	margin:0px;
-	width:100%;
-	height:50px;
-	align-items:center;
-}
-
-
-body
-{
-
-	justify-content: center;
-	display:flex;
-	align-items: center;
-	flex-direction:column;
-
-}
-
-
-.nurse
-{
-	
+	margin: 0;
 	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
 
-	display:flex;
-	flex: 1 1 0px;
+
+.bande1
+{
+
+	flex: 1 1 5%;
+	display: flex;
 	align-items: center;
-	justify-content: flex-start;
-	flex-direction:column;
-	
+	margin-left: 20px;
+}
+
+.bande1 label
+{
+
+	color: #4234A3;
+	font-weight: lighter;
+	font-size: 20pt;
 
 }
 
-.nurse img
+.bande2
 {
-	margin-top:40px;
-	width : 300px;
-	height: auto;
-
-}
-
-.nurse button
-{
-	margin-top:20px;
-	color: white;
+	display: flex;
+	align-items: center;
+	flex: 1 1 20%;
 	background: #4234A3;
-	width: 30%;
-	cursor: pointer;
-	outline: none;
-	height: 40px;
-	border-radius: 10px;
-	border-color: #4234A3;
-	border-style: solid;
-	
 }
 
-
-.nurse button:hover
+.bande2 label
 {
-	background: #7E6FA2;
+
+	font-size: 20pt;
+	color: white;
+	margin-left: 20px;
 }
 
-.nurse button:active
+.formulaire
 {
-	background: #ffffff;
-	color: #7E6FA2;
-}
 
-.border
-{
-	
-	border-radius:8px;
-	padding: 4px;
-	background: linear-gradient(to right bottom, #55d7b7, #2acec3, #00c3cd, #00b8d4, #00acd6); 
-}
-
-form
-{
-	height:100%;
-	
-	flex: 2 1 0px;
-	display:flex;
-	flex-direction:column;
-	justify-content: space-around;
-	margin-right:30px;
-
-}
-
-#med_info
-{
-	
-	padding: 10px;
-	border-radius:8px;
-	background:white;
-	display:flex;
 	flex-wrap: wrap;
-}
-
-#identification
-{
-	
-	display:flex;
-	flex-wrap: wrap;
-	border-radius:8px;
 	padding: 10px;
-	background:white;
+	flex: 4 1 65%;
+	display: flex;
+	
+
 }
 
 .field
 {	
 	
-	flex-basis: 50%;
+	flex-basis: 33.33%;
 	display: flex;
 	flex-direction:column;
+
+	
+	
 }
 
-
-input[type="text"],[type="date"],[type="password"]
-{
-	width:80%;
-	height:15px;
-}
-
-textarea
-{
-	width:80%;
-}
-
-#form
-{
-
+.field [type="text"],[type="date"],[type="password"]
+{	
+	
+	margin-left: 10px;
+	color:#4234A3;
+	background:white;
+	border-radius: 3px;
+	border-color: #a49dd4;
+	border-style: solid;
+	border-width: 1px;
 	display:flex;
-
-	
-
-	
-
-}	
-
-
-form h3
-{
-	margin-top:15px;
-	margin-left:10px;
-}	
-	
-	
-#switch
-{
-	margin-top:10px;
-	
-}
-#type
-{
-	right:20px;
-	margin-bottom:5px;
-	position:relative;
+	height: 30px;
 
 }
 
 .select
 {
-	color:white;
-	background:#55D7B7;
-	border-radius: 8px;
+	color:#4234A3;
+	background:white;
+	border-radius: 3px;
+	border-color: #a49dd4;
+	border-style: solid;
+	border-width: 1px;
 	flex: 1;
 	padding: 5px 5px 5px 20px;
 	display:flex;
+	height: 30px;
 }
 
 .select label
 {
 	flex: 7 1 0;
+	margin-top: 3px;
+	margin-bottom:3px;
 	
 }
 
@@ -209,13 +117,11 @@ form h3
 	background-size: contain;
 	background-repeat:no-repeat;
 	
+	cursor: pointer;
 	flex: 1 1 0;
 	
 	transition: all 0.4s;
 }
-
-
-
 
 .container
 {
@@ -258,30 +164,46 @@ form h3
 	background:#55D7B7;
 	border-radius: 0 8px 8px 0;
 }
-
-.search_box
+.container
 {
+	margin-top:5px;
+	max-height: 0px;
+	opacity: 1;
+	overflow-y: scroll;
+	border-radius: 8px;
+	background:#edfdf8;
+	width:100%;
+	overflow:hidden;
+	transition: all 0.4s;
+	display:flex;
+	flex-direction:column;
 	
-	flex:1 1 0;
 }
 
-.search_box input
+.select_box .container.active
 {
-	margin: 5px;
-	width:92%;
-	border-radius:5px;
-	border-width:1px;
-	border-style:solid;
-	border-color:#ededed;
-	height:20px;
-	padding: 5px;
+	
+	max-height: 200px;
+	opacity: 1;
+	overflow-y: scroll;
+	
 }
 
-.options
+
+
+.container::-webkit-scrollbar
 {
-	cursor:pointer;
-	padding: 5px 10px;
 	
+	width: 9px;
+	background:#c7fceb;
+	border-radius: 0 8px 8px 0;
+}
+
+.container::-webkit-scrollbar-thumb
+{
+	
+	background:#55D7B7;
+	border-radius: 0 8px 8px 0;
 }
 
 .options:hover
@@ -290,6 +212,12 @@ form h3
 	
 }
 
+.options
+{
+	cursor:pointer;
+	padding: 5px 10px;
+	
+}
 .option
 {
 	
@@ -298,10 +226,10 @@ form h3
 
 .select_box
 {
+
 	display:flex;
 	flex-direction:column;
 	padding: 0px 0px 10px 10px;
-	
 }
 
 .select_box label
@@ -310,148 +238,9 @@ form h3
 	cursor: pointer;
 }
 
-.select_box #maladies
-{
-	
-	
-	flex: 1 ;
-}
-
-#selected
+.sexe_f
 {
 
-	opacity: 1;
-	overflow-y: scroll;
-	max-height: 200px;
-	flex-wrap:wrap;
-	flex: 1;
-	background:#edfdf8;
-	margin:5px;
-	border-radius:10px;
-	display:flex;
-	padding:10px 0px 0px 10px;
-	align-content:flex-start;
-}
-
-
-.selected::-webkit-scrollbar
-{
-	
-	width: 9px;
-	background:#c7fceb;
-	border-radius: 0 8px 8px 0;
-}
-
-.selected::-webkit-scrollbar-thumb
-{
-	
-	background:#55D7B7;
-	border-radius: 0 8px 8px 0;
-}
-
-
-#selected .chip
-{
-	height:20px;
-	border-color:#009F82;
-	color:#009F82;
-	
-	border-style:solid;
-	border-width:1px;
-	border-radius:8px;
-	
-	display:flex;
-	flex-direction:center;
-	align-items:center;
-	
-	padding:3px 8px 3px 8px;
-	margin: 0px 5px 5px 0px;
-}
-
-#selected .chip:hover
-{
-	color:red;
-	border-color:red;
-}
-
-#select_maladies
-{
-	flex:1;
-	display:flex;
-	
-}
-
-
-#b_med
-{
-	
-	margin-bottom:30px;
-}
-
-
-
-/* The switch - the box around the slider */
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
-  margin-left:30px;
-  margin-right:30px;
-  
-}
-
-/* Hide default HTML checkbox */
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-/* The slider */
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #55d7b7;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-input:checked + .slider {
-  background-color: #4234A3;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-}
-
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
+	display: flex;
+	align-items: center;
 }

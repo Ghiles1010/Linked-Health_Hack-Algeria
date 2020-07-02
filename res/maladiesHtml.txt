@@ -215,7 +215,6 @@
 								</div>
 								<div class = "options">
 									
-
 									<input type="radio" class="option" id="Diabète">
 									<label for="Diabète">Diabète</label>
 								</div>
@@ -311,7 +310,6 @@
 								</div>
 								<div class = "options">
 									
-
 									<input type="radio" class="option" id="Dilatation des bronches">
 									<label for="Dilatation des bronches">Dilatation des bronches</label>
 								</div>
@@ -322,7 +320,6 @@
 								</div>
 								<div class = "options">
 									
-
 									<input type="radio" class="option" id="Otospongiose">
 									<label for="Otospongiose">Otospongiose</label>
 								</div>
@@ -363,7 +360,6 @@
 								</div>
 								<div class = "options">
 									
-
 									<input type="radio" class="option" id="Colopathie fonctionnelle, côlon irritable">
 									<label for="Colopathie fonctionnelle, côlon irritable">Colopathie fonctionnelle, côlon irritable</label>
 								</div>
@@ -394,7 +390,6 @@
 								</div>
 								<div class = "options">
 									
-
 									<input type="radio" class="option" id="Maladie cœliaque">
 									<label for="Maladie cœliaque">Maladie cœliaque</label>
 								</div>
@@ -450,7 +445,6 @@
 								</div>
 								<div class = "options">
 									
-
 									<input type="radio" class="option" id="Cervicalgie chronique, dorsalgie chronique (douleur du haut du dos, hernie discale cervicale, hernie discale dorsale)">
 									<label for="Cervicalgie chronique, dorsalgie chronique (douleur du haut du dos, hernie discale cervicale, hernie discale dorsale)">Cervicalgie chronique, dorsalgie chronique (douleur du haut du dos, hernie discale cervicale, hernie discale dorsale)</label>
 								</div>
@@ -561,7 +555,6 @@
 								</div>
 								<div class = "options">
 									
-
 									<input type="radio" class="option" id="Antécédent d’accident ischémique transitoire (AIT)">
 									<label for="Antécédent d’accident ischémique transitoire (AIT)">Antécédent d’accident ischémique transitoire (AIT)</label>
 								</div>
@@ -572,13 +565,11 @@
 								</div>
 								<div class = "options">
 									
-
 									<input type="radio" class="option" id="Céphalées chroniques (dont migraine)">
 									<label for="Céphalées chroniques (dont migraine)">Céphalées chroniques (dont migraine)</label>
 								</div>
 								<div class = "options">
 									
-
 									<input type="radio" class="option" id="Démence vasculaire">
 									<label for="Démence vasculaire">Démence vasculaire</label>
 								</div>
@@ -609,7 +600,6 @@
 								</div>
 								<div class = "options">
 									
-
 									<input type="radio" class="option" id="Myopathie acquise (inflammatoire, autre)">
 									<label for="Myopathie acquise (inflammatoire, autre)">Myopathie acquise (inflammatoire, autre)</label>
 								</div>
@@ -660,7 +650,6 @@
 								</div>
 								<div class = "options">
 									
-
 									<input type="radio" class="option" id="Syndrome de Guillain Barré">
 									<label for="Syndrome de Guillain Barré">Syndrome de Guillain Barré</label>
 								</div>
@@ -676,7 +665,6 @@
 								</div>
 								<div class = "options">
 									
-
 									<input type="radio" class="option" id="Autres démences">
 									<label for="Autres démences">Autres démences</label>
 								</div>
@@ -757,7 +745,6 @@
 								</div>
 								<div class = "options">
 									
-
 									<input type="radio" class="option" id="Endométriose">
 									<label for="Endométriose">Endométriose</label>
 								</div>
@@ -823,7 +810,6 @@
 								</div>
 								<div class = "options">
 									
-
 									<input type="radio" class="option" id="Dermatite séborrhéique">
 									<label for="Dermatite séborrhéique">Dermatite séborrhéique</label>
 								</div>
@@ -854,7 +840,6 @@
 								</div>
 								<div class = "options">
 									
-
 									<input type="radio" class="option" id="Pelade">
 									<label for="Pelade">Pelade</label>
 								</div>
@@ -930,7 +915,6 @@
 								</div>
 								<div class = "options">
 									
-
 									<input type="radio" class="option" id="Trouble de la vision (myopie, presbytie, astigmatisme)">
 									<label for="Trouble de la vision (myopie, presbytie, astigmatisme)">Trouble de la vision (myopie, presbytie, astigmatisme)</label>
 								</div>
@@ -1011,7 +995,6 @@
 								</div>
 								<div class = "options">
 									
-
 									<input type="radio" class="option" id="Syndrome de Goujerot-Sjögren">
 									<label for="Syndrome de Goujerot-Sjögren">Syndrome de Goujerot-Sjögren</label>
 								</div>
@@ -1022,7 +1005,6 @@
 								</div>
 								<div class = "options">
 									
-
 									<input type="radio" class="option" id="Autre maladie systémique">
 									<label for="Autre maladie systémique">Autre maladie systémique</label>
 								</div>

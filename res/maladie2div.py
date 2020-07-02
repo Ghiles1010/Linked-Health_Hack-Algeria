@@ -24,7 +24,6 @@ for i in file:
         div=re.sub("bla",ill,option)
 
         print(div)
-        out.write(div+"\n")
 
         if ill not in dup:
             

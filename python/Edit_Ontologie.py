@@ -345,7 +345,7 @@ dict_fiches=[]
 
 
 graph = rdflib.Graph()
-graph.parse("sortiefinal.owl",format="turtle")
+#graph.parse("sortiefinal.owl",format="turtle")
 open("sortieturtle.rdf","w")
 graph.serialize("sortieturtle.rdf",format="turtle")
 

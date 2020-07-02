@@ -1,7 +1,7 @@
 const selectedAll = document.querySelectorAll(".select");
 const maladies_container = document.querySelector(".container.maladies");
 
-alert("text");
+$(".field.spe").hide(1);
 
 selectedAll.forEach( (selected) => {
 	
@@ -175,8 +175,22 @@ return true;
 
 const switch_in = document.querySelector(".switch input");
 
-switch_in.addEventListener("click", () => {
+med_section = document.querySelector("#dossier_medical");
 
-	alert("text");
+switch_in.addEventListener("change", () => {
+
+	
+		if(med_section.style.display=="none")
+		{
+			$(".field.spe").show(500);
+			$("#dossier_medical").show(500);
+		}
+		else
+		{
+			$(".field.spe").hide(500);
+			$("#dossier_medical").hide(500);
+		}
+
+
 
 });

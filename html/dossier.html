@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+        <meta charset = "UTF-8">
+        <meta name = "description content" >
+
+        <link rel="shortcut icon" href="">
+        <link rel="stylesheet" href="../static/css/dossier.css" />
+        
+
+    </head>
+        
+	
+	<body>
+
+        <h1>Dossier médical du patient</h1>
+
+        <div class = "infos">
+
+            <h2 classe = "base_title">Informations de bases</h2>
+
+            <div class = "base section">
+                <label id = "blood">Groupe sanguain: O+</label>
+                <label id = "birth">Date naissance: 10 / 10 /1999</label>
+                <label id = "">Sexe: Mâle</label>
+                <label id = "">profession: Plombier</label>
+            </div>
+
+            <h2>Maladies chroniques du patient</h2>
+            <div class = "maladies section">
+
+                <label class = "maladie"> Dibabète</label>
+
+
+            </div>
+
+            <h2>Antécédents personnels du patient</h2>
+            <div class = "ant_perso section">
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce venenatis aliquam nulla, vitae elementum orci feugiat et. Mauris nec pharetra tortor, et porttitor justo. Vivamus tristique placerat nibh, sed bibendum augue tempor eget. Nunc facilisis, risus a tempus vulputate, dolor odio iaculis risus, a finibus eros nunc vitae lacus. Nulla lacus ligula, sodales a sem eu, egestas varius tortor. Mauris egestas sed arcu eget mollis. Mauris a nisi velit.
+                </p>
+
+            </div>
+            
+            <h2>Antécédent Familiaux du patient</h2>
+            <div class = "ant_famille section">
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce venenatis aliquam nulla, vitae elementum orci feugiat et. Mauris nec pharetra tortor, et porttitor justo. Vivamus tristique placerat nibh, sed bibendum augue tempor eget. Nunc facilisis, risus a tempus vulputate, dolor odio iaculis risus, a finibus eros nunc vitae lacus. Nulla lacus ligula, sodales a sem eu, egestas varius tortor. Mauris egestas sed arcu eget mollis. Mauris a nisi velit.
+                </p>
+            </div>
+
+            <h2>Compte rendu des visites médicales du patient</h2>
+            <div class = "liste CRs">
+                
+                <div class = "item CR">
+
+                    <div class = left>
+
+                        <label>Nom du médecin: Moustache</label>
+                        <label>spécialité: Cardiologue</label>
+                        <label>Affiliation: CHU Mustapha bacha</label>
+                        <label>Date: 18 / 04 / 2020</label>
+                    </div>
+
+                    <div class="right">
+
+                        <button data-modal-target="#pop">voir</button>
+                    </div>
+                </div>
+            </div>
+
+            <h2>imagerie du patient</h2>
+            <div class = "liste images">
+
+                <div class = "item image">
+
+                    <div class = left>
+
+                        <label>Nom du centre dimagerie: Kouba imagerie médicale</label>
+                        <label>Type: Radio du genoux</label>
+                        <label>Date: 18 / 04 / 2020</label>
+                    </div>
+
+                    <div class="right">
+
+                        <button data-modal-target="#pop">Voir</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div class="pop" id = "pop">
+
+            <div class = "top">
+                <label>Dr. Moustache - Cardiologue - 18 / 04 / 2020</label>
+                <button data-close-button class = "close">&times;</button>
+            </div>
+
+            <h3>Compte rendu: </h3>
+           <p> 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Necessitatibus sit tempora omnis sed voluptatum, iste qui, repellat,
+                repellendus ullam dicta iusto earum atque corrupti architecto amet
+                modi maiores reprehenderit labore accusamus? Facere sint at quisquam 
+                cum laudantium doloremque nulla praesentium.
+            </p>
+        </div>
+
+        <div id = "overlay"></div>
+        <script src="{{url_for('static', filename='js/dossier.js') }}"></script>
+    </body>
+    
+
+    <div class="pop" id = "pop_img">
+
+        <div class = "top">
+            <label>Dr. Moustache - Cardiologue - 18 / 04 / 2020</label>
+            <button data-close-button class = "close">&times;</button>
+        </div>
+
+        <h3>image: </h3>
+       <p> 
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Necessitatibus sit tempora omnis sed voluptatum, iste qui, repellat,
+            repellendus ullam dicta iusto earum atque corrupti architecto amet
+            modi maiores reprehenderit labore accusamus? Facere sint at quisquam 
+            cum laudantium doloremque nulla praesentium.
+        </p>
+    </div>
+
+    <div id = "overlay"></div>
+    <script src="{{url_for('static', filename='js/dossier.js') }}"></script>
+</body>
+	
+	
+	
+	
+	
+</html>
