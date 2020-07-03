@@ -10,7 +10,7 @@ class qrcode:
 	def __init__(self, id):
 			self.id = id
 			a = "https://rocky-harbor-71969.herokuapp.com/dossier?id="+self.id
-			url=pyqrcode.create("https://rocky-harbor-71969.herokuapp.com/dossier/")
+			url=pyqrcode.create(a)
 			
 			url.png(''+id+'.png', scale = 10)
 			
@@ -18,4 +18,3 @@ class qrcode:
 			im1 = image1.convert('RGB')
 			im1.save(r''+id+'myqr.pdf')
 
-a = qrcode('raouf')
