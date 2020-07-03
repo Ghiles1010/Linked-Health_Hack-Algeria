@@ -58,11 +58,11 @@ with onto:
         range = [str]
         domain = [Patient]
 
-    class GroupeSanguin(DataProperty):
+    class GroupeSanguin(DataProperty, FunctionalProperty):
         range = [str]
         domain = [Patient]
     
-    class Rhesus(DataProperty):
+    class Rhesus(DataProperty, FunctionalProperty):
         range = [str]
         domain = [Patient]
 

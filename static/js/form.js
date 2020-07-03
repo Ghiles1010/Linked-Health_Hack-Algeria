@@ -75,7 +75,6 @@ function addChip(text){
 	div.appendChild(label);
 	
 	div.addEventListener("click",() => {
-		
 		div.remove();
 	});
 	

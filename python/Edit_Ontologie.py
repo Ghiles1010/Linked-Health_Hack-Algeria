@@ -24,7 +24,7 @@ def enum_class(onto):
     return liste
 
 #Cette fonction nous permet de créer un patient dans notre ontologie
-def create_patient(nom, prenom, e_mail,tel,date_de_naissance, sexe,adresse,profession, antecedent_perso,antecedent_famille,  autre_chose):
+def create_patient(nom, prenom, e_mail, password, tel,date_de_naissance, sexe,adresse, groupe_sanguin, rhesus ,profession, antecedent_perso,antecedent_famille,  autre_chose):
 
     #On recupere la classe "Patient" de notre liste
     class_patient = list_class[9]
@@ -35,13 +35,14 @@ def create_patient(nom, prenom, e_mail,tel,date_de_naissance, sexe,adresse,profe
     P.iri = ns + e_mail
     P.Nom = nom
     P.Prenom.append(prenom)
+    P.Password = password
     P.Email = e_mail
     P.Sexe = sexe
     P.Telephone = tel
     P.DateDeNaissance = date_de_naissance
     P.Adresse = adresse
-    #P.GroupeSanguin = groupe_sanguin
-    #P.Rhesus = rhesus
+    P.GroupeSanguin = groupe_sanguin
+    P.Rhesus = rhesus
     P.Profession = profession
     P.AntecedentPerso.append(antecedent_perso)
     P.AntecedentFamille.append(antecedent_famille)
@@ -84,6 +85,7 @@ def authentification(email,motdepass):
             print("Erreur : Mot de passe incorrect")
         else:
             print("utilisateur trouvé")
+            return P
     
 
 #Cette fonction quant a elle nous permets de créer un objet medecin dans notre base rdf
