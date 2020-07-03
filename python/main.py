@@ -1,15 +1,15 @@
 from flask import Flask, render_template, request, Response, url_for, redirect
-import Edit_Ontologie
 import cv2
 from owlready2 import get_ontology
+import edit_ontology
 
 app = Flask(__name__,static_folder="..//static",template_folder="..//html")
 
-onto = get_ontology("sortiefinal.owl").load()
+onto = get_ontology("bdd.owl").load()
 
 @app.route("/")
 def home():
-	print("hi")
+	edit_ontology.afficher_individuals()
 	return render_template("index.html")
 
 @app.route("/creer_dossier", methods = ['GET', 'POST'])
@@ -18,6 +18,7 @@ def creerDossier():
 		pseudo = request.form['q43_pseudonyme']
 		mdp = request.form['q45_motDe']
 		date = request.form['q9_dateDe[day]'] + "/" + request.form['q9_dateDe[month]'] + "/" + request.form['q9_dateDe[year]']
+		genre = request.form['q22_genre']
 		wilaya = request.form['q40_wilaya']
 		commune = request.form['q39_commune']
 		poids = request.form['q41_poidsen']
@@ -28,8 +29,10 @@ def creerDossier():
 		antFamille = request.form['q27_antecedantsFamiliaux']
 		maladies = request.form['q47_maladiesChroniques']
 		print(pseudo, mdp, date, wilaya, commune, poids, taille, groupeSanguin, rhesus, antPerso, antFamille, maladies)
+		edit_ontology.creer_dossier_medical(pseudo, mdp, maladies, rhesus, groupeSanguin, wilaya, commune, antPerso, antFamille, poids, taille, genre, date)
+		#edit_ontology.creer_patient(pseudo, mdp, edit_ontology.creer_dossier_medical(maladies, rhesus, groupeSanguin, wilaya, commune, antPerso, antFamille, poids, taille, genre, date))
+		edit_ontology.afficher_individuals()
 		return render_template("creer_dossier.html")
-
 	else:
 		return render_template("creer_dossier.html")
 
@@ -117,8 +120,18 @@ def telemed():
 def dossier():
 	return render_template("dossier.html")
 
-@app.route("/auth_patient")
+@app.route("/auth_patient", methods = ['POST', 'GET'])
 def auth_patient():
+	if request.method == "POST":
+		pseudo = request.form['pseudo']
+		mdp = request.form['password']
+		a = edit_ontology.authentificationPatient(pseudo, mdp)
+		if a:
+			print("Utilisateur trouvé")
+			return
+		else:
+			# pseudo introuvable
+			pass
 	return render_template("auth_patient.html")
 
 @app.route("/auth_doctor")
