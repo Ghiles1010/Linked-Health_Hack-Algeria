@@ -144,6 +144,7 @@ def get_frame():
 def calc():
      return Response(get_frame(),mimetype='multipart/x-mixed-replace; boundary=frame')
 
+
 if __name__ == "__main__":
 	
 	app.run(debug = True)

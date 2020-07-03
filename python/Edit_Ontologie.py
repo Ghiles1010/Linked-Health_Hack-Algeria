@@ -404,9 +404,7 @@ graph.serialize("sortieturtle.rdf",format="turtle")
 
 
 
-#On invoque le raisonneur Hermit
-owlready2.JAVA_EXE = "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath\\java.exe"
-sync_reasoner()
+
 
 
 #On sauvegarde notre ontologie
