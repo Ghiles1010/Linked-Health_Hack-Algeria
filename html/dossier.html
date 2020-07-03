@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<title>Linked-Health ~ Dossier Médical</title>
 
 	<head>
 	
@@ -22,16 +23,21 @@
             <h2 classe = "base_title">Informations de bases</h2>
 
             <div class = "base section">
-                <label id = "blood">Groupe sanguain: O+</label>
-                <label id = "birth">Date naissance: 10 / 10 /1999</label>
-                <label id = "">Sexe: Mâle</label>
-                <label id = "">profession: Plombier</label>
+                <label id = "blood">Groupe sanguain: {{grpS + " " + rhesus}}</label>
+                <label id = "birth">Date naissance: {{dateNaiss}}</label>
+                <label id = "genre">Sexe: {{genre}}</label>
+                <label id = "wilaya">Wilaya: {{wilaya}}</label>
+                <label id = "commune">Commune: {{commune}}</label>
+                <label id = "taille">Taille: {{taille}}</label>
+                <label id = "poids">Poids: {{poids}}</label>
+
+
             </div>
 
             <h2>Maladies chroniques du patient</h2>
             <div class = "maladies section">
 
-                <label class = "maladie"> Dibabète</label>
+                <label class = "maladie"> {{maladie}}</label>
 
 
             </div>
@@ -40,7 +46,7 @@
             <div class = "ant_perso section">
 
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce venenatis aliquam nulla, vitae elementum orci feugiat et. Mauris nec pharetra tortor, et porttitor justo. Vivamus tristique placerat nibh, sed bibendum augue tempor eget. Nunc facilisis, risus a tempus vulputate, dolor odio iaculis risus, a finibus eros nunc vitae lacus. Nulla lacus ligula, sodales a sem eu, egestas varius tortor. Mauris egestas sed arcu eget mollis. Mauris a nisi velit.
+                    {{antPerso}}
                 </p>
 
             </div>
@@ -49,48 +55,44 @@
             <div class = "ant_famille section">
 
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce venenatis aliquam nulla, vitae elementum orci feugiat et. Mauris nec pharetra tortor, et porttitor justo. Vivamus tristique placerat nibh, sed bibendum augue tempor eget. Nunc facilisis, risus a tempus vulputate, dolor odio iaculis risus, a finibus eros nunc vitae lacus. Nulla lacus ligula, sodales a sem eu, egestas varius tortor. Mauris egestas sed arcu eget mollis. Mauris a nisi velit.
+                    {{antFamille}}
                 </p>
             </div>
 
             <h2>Compte rendu des visites médicales du patient</h2>
             <div class = "liste CRs">
-                
+            {% for i in range(lenListe) %}
                 <div class = "item CR">
 
                     <div class = left>
 
-                        <label>Nom du médecin: Moustache</label>
-                        <label>spécialité: Cardiologue</label>
-                        <label>Affiliation: CHU Mustapha bacha</label>
+                        <label>Nom du médecin: Dr. Moustache</label>
+                        <label>Spécialité: Généraliste</label>
+                        <label>Affiliation: CHU Mustapha Bacha</label>
                         <label>Date: 18 / 04 / 2020</label>
                     </div>
+
+
 
                     <div class="right">
 
                         <button data-modal-target="#pop">voir</button>
                     </div>
                 </div>
+            {% endfor %}
+
             </div>
+            <form class="liste" action="{{ url_for('ajouterCompteRendu', dossier = request.args.get('id')) }}">
 
-            <h2>imagerie du patient</h2>
-            <div class = "liste images">
+                	<div id = "CRform">
 
-                <div class = "item image">
-
-                    <div class = left>
-
-                        <label>Nom du centre dimagerie: Kouba imagerie médicale</label>
-                        <label>Type: Radio du genoux</label>
-                        <label>Date: 18 / 04 / 2020</label>
+                        <h4>Ajouter un compte rendu</h4>
+                        <textarea name="addCR">Ecrivez ici...</textarea>
+                        <input type="submit" value = "Ajouter">
                     </div>
 
-                    <div class="right">
+                </form>
 
-                        <button data-modal-target="#pop">Voir</button>
-                    </div>
-                </div>
-            </div>
         </div>
 
         
@@ -98,41 +100,20 @@
         <div class="pop" id = "pop">
 
             <div class = "top">
-                <label>Dr. Moustache - Cardiologue - 18 / 04 / 2020</label>
+                <label>Dr. Moustache - Généraliste - 18 / 04 / 2020</label>
                 <button data-close-button class = "close">&times;</button>
             </div>
 
             <h3>Compte rendu: </h3>
-           <p> 
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Necessitatibus sit tempora omnis sed voluptatum, iste qui, repellat,
-                repellendus ullam dicta iusto earum atque corrupti architecto amet
-                modi maiores reprehenderit labore accusamus? Facere sint at quisquam 
-                cum laudantium doloremque nulla praesentium.
+           <p>
+               Le patient n'a plus mal au ventre depuis 3 jours, mais il a attrapé un rhume récemment, je lui ai administré Rhumafed
+               à prendre 2 fois par jours pendant 1 semaine afin qu'il aille mieux.
             </p>
         </div>
 
         <div id = "overlay"></div>
         <script src="{{url_for('static', filename='js/dossier.js') }}"></script>
     </body>
-    
-
-    <div class="pop" id = "pop_img">
-
-        <div class = "top">
-            <label>Dr. Moustache - Cardiologue - 18 / 04 / 2020</label>
-            <button data-close-button class = "close">&times;</button>
-        </div>
-
-        <h3>image: </h3>
-       <p> 
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Necessitatibus sit tempora omnis sed voluptatum, iste qui, repellat,
-            repellendus ullam dicta iusto earum atque corrupti architecto amet
-            modi maiores reprehenderit labore accusamus? Facere sint at quisquam 
-            cum laudantium doloremque nulla praesentium.
-        </p>
-    </div>
 
     <div id = "overlay"></div>
     <script src="{{url_for('static', filename='js/dossier.js') }}"></script>

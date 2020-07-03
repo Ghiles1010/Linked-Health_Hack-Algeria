@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<title>Linked-Health ~ Téléchargement du QR Code</title>
 
 	<head>
 	
@@ -18,10 +19,16 @@
 	
 	<body>
 
+		<div class = "bande1">
+
+			<label>Linked-health</label>
+
+		</div>
+
         <div class = "message">
 
             <h1>Merci :)</h1>
-            <p> Si le téléchargement ne s'est pas lancé appuyer <a href={{url_for('download_file')}}>ici</a></p>
+            <p> Si le téléchargement ne s'est pas lancé appuyer <a href={{url_for('download_file', path = request.args.get('path'))}}>ici</a></p>
         </div>
 	</body>
 	

@@ -1,5 +1,6 @@
 import random
 from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
+from simplecrypt import encrypt, decrypt
 import png
 from pyqrcode import QRCode
 import pyqrcode 
@@ -10,15 +11,10 @@ class qrcode:
 	
 	def __init__(self, id):
 			self.id = id
-			
-			s = Serializer(random.choice(qrcode.keys), 60*30) # 60 secs by 30 mins
-			token = s.dumps({'user_id': id}).decode('utf-8') # encode user id
-			token = token.replace(".","").replace("-","")
-			print(token)
-			a = "www.linked_health.dz/"+token
+			a = "https://rocky-harbor-71969.herokuapp.com/dossier?id="+self.id
 			url=pyqrcode.create(a)
 			
-			url.png(''+id+'.png', scale = 2)
+			url.png(''+id+'.png', scale = 10)
 			
 			image1 = Image.open(r''+id+'.png')
 			im1 = image1.convert('RGB')

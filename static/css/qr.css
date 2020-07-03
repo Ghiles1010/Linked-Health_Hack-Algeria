@@ -7,6 +7,12 @@ body
     justify-content: flex-start;
 }
 
+.bande1 label {
+    color: #4234A3;
+    font-weight: lighter;
+    font-size: 30pt;
+}
+
 
 .message h1
 {

@@ -16,8 +16,8 @@
 
 <owl:DatatypeProperty rdf:about="#MotDePasse">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <rdfs:domain rdf:resource="#Medecin"/>
   <rdfs:domain rdf:resource="#DossierMedical"/>
+  <rdfs:domain rdf:resource="#Medecin"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </owl:DatatypeProperty>
 
@@ -126,20 +126,46 @@
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
+<Medecin rdf:about="http://linked_health.dz/Covid_ont#rafainiestaretro@gmail.com">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <MotDePasse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mdp</MotDePasse>
+  <Email rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rafainiestaretro@gmail.com</Email>
+  <Specialite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Généraliste</Specialite>
+  <Affiliation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHU Mustapha Bacha</Affiliation>
+  <Nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DR. MOUFFOK Raouf</Nom>
+</Medecin>
+
 <DossierMedical rdf:about="http://linked_health.dz/Covid_ont#aaaa">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <Pseudo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aaaa</Pseudo>
   <MotDePasse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mdp</MotDePasse>
-  <MaladieChronique rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancer, COVID-19</MaladieChronique>
-  <Commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abalessa</Commune>
-  <Wilaya rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laghouat</Wilaya>
+  <MaladieChronique rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aucune</MaladieChronique>
+  <Commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Achaacha</Commune>
+  <Wilaya rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chlef</Wilaya>
   <GroupeSanguin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</GroupeSanguin>
-  <Rhesus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Positif</Rhesus>
-  <AntecedantsPerso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aaaammmm</AntecedantsPerso>
-  <AntecedentsFamille rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bbbbb</AntecedentsFamille>
+  <Rhesus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Négatif</Rhesus>
+  <AntecedantsPerso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pas d&amp;#039;antécédants personnels</AntecedantsPerso>
+  <AntecedentsFamille rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La maman souffre du diabète</AntecedentsFamille>
   <Taille rdf:datatype="http://www.w3.org/2001/XMLSchema#string">210</Taille>
-  <Poids rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Poids>
+  <Poids rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80</Poids>
+  <Genre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Femme</Genre>
+</DossierMedical>
+
+<DossierMedical rdf:about="http://linked_health.dz/Covid_ont#aghiles">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Pseudo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aghiles</Pseudo>
+  <MotDePasse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mdp</MotDePasse>
+  <MaladieChronique rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aucune</MaladieChronique>
+  <Commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El Madania</Commune>
+  <Wilaya rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alger</Wilaya>
+  <GroupeSanguin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B</GroupeSanguin>
+  <Rhesus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Positif</Rhesus>
+  <AntecedantsPerso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aucuns</AntecedantsPerso>
+  <AntecedentsFamille rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aucuns</AntecedentsFamille>
+  <Taille rdf:datatype="http://www.w3.org/2001/XMLSchema#string">190</Taille>
+  <Poids rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80</Poids>
   <Genre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homme</Genre>
+  <DateNaissance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10/September/1999</DateNaissance>
 </DossierMedical>
 
 
