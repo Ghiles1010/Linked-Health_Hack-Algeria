@@ -126,5 +126,21 @@
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
+<DossierMedical rdf:about="http://linked_health.dz/Covid_ont#aaaa">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <Pseudo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aaaa</Pseudo>
+  <MotDePasse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mdp</MotDePasse>
+  <MaladieChronique rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancer, COVID-19</MaladieChronique>
+  <Commune rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abalessa</Commune>
+  <Wilaya rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laghouat</Wilaya>
+  <GroupeSanguin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</GroupeSanguin>
+  <Rhesus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Positif</Rhesus>
+  <AntecedantsPerso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aaaammmm</AntecedantsPerso>
+  <AntecedentsFamille rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bbbbb</AntecedentsFamille>
+  <Taille rdf:datatype="http://www.w3.org/2001/XMLSchema#string">210</Taille>
+  <Poids rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></Poids>
+  <Genre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homme</Genre>
+</DossierMedical>
+
 
 </rdf:RDF>

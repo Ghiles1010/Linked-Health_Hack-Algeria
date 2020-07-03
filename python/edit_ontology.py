@@ -15,7 +15,7 @@ def creer_patient(pseudo, mdp, dossierMedical):
     P.hasDossierMedical.append(dossierMedical)'''
 
 def authentificationPatient(pseudo,motdepass):
-    if (onto.search(iri="*"+pseudo)[0]== []):
+    if (len(onto.search(iri="*#"+pseudo)) == 0):
         print("Erreur : Pseudo introuvable")
         return False
     else :
@@ -48,6 +48,8 @@ def creer_dossier_medical(pseudo, mdp, maladie, rhesus, groupeSang, wilaya, comm
     D.Taille = taille
     D.Genre = genre
     D.DateNaiss = dateNaiss
+    onto.save("bdd.owl")
+
 
 def creer_medecin(nom, email, mdp, specialite, affiliation):
     M = onto.Medecin()
@@ -57,9 +59,10 @@ def creer_medecin(nom, email, mdp, specialite, affiliation):
     M.Email = email
     M.Specialite.append(specialite)
     M.Affiliation.append(affiliation)
+    onto.save("bdd.owl")
 
 def authentificationMedecin(email,motdepass):
-    if (onto.search(iri="*"+email)[0]== []):
+    if (onto.search(iri="*#"+email)[0]== []):
         print("Erreur : Email introuvable")
     else :
         M = onto.search(iri="*"+email)[0]
