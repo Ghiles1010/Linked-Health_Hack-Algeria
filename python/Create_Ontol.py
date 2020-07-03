@@ -34,41 +34,45 @@ with onto:
         range = [str]
         domain = [Humain]
 
-    
+    class Pseudo(DataProperty, FunctionalProperty):
+        range = [str]
+        domain = [Humain]
+
 
 
     class Patient(Humain):
         pass
 
+    class patientID(DataProperty,FunctionalProperty):
+        range = [str]
+        domain = [Patient]
+
+    class Taille(DataProperty, FunctionalProperty):
+        range = [str]
+        domain = [Patient]
+
+    class Poids(DataProperty, FunctionalProperty):
+      range = [str]
+      domain = [Patient]
+
     class DateDeNaissance(DataProperty, FunctionalProperty):
         range = [str]
         domain = [Patient]
 
-    class Sexe(DataProperty, FunctionalProperty):
+    class Genre(DataProperty, FunctionalProperty):
         range = [str]
         domain = [Patient]
 
-    class patientID(DataProperty, FunctionalProperty):  # Unicité a questionner
-        range = [str]
-        domain = [Patient]
-        pass
 
-    
-    class AutreChose(DataProperty, FunctionalProperty):
-        range = [str]
-        domain = [Patient]
 
-    class GroupeSanguin(DataProperty, FunctionalProperty):
+    class GroupeSanguin(DataProperty):
         range = [str]
         domain = [Patient]
     
-    class Rhesus(DataProperty, FunctionalProperty):
+    class Rhesus(DataProperty):
         range = [str]
         domain = [Patient]
 
-    class Adresse(DataProperty, FunctionalProperty):
-        range = [str]
-        domain = [Humain]
     
     class Profession(DataProperty, FunctionalProperty):
         range = [str]
@@ -97,8 +101,13 @@ with onto:
 
 
 
+    class CompteRendu(Thing):
+        pass
 
- 
+    class contenuCompteRendu(CompteRendu >> str):
+        pass
+
+
 
 
 
@@ -126,13 +135,14 @@ with onto:
     class estSpecialise(Medecin >> Specialite):
         pass
 
+
+
     class Localisation(Thing):
         pass
 
 
     class Wilaya(Localisation):
         pass
-
 
     class nomWilaya(DataProperty,FunctionalProperty):
         domain = [Wilaya]
@@ -147,81 +157,47 @@ with onto:
     class Daira(Localisation):
         pass
 
-
-
-
     class nomDaira(DataProperty,FunctionalProperty):
         domain = [Daira]
         range = [str]
 
-
     class communeDe(Daira >> Wilaya):
         pass
-
-
 
     class estLocalise(Thing >> Localisation):
         pass
 
+    estLocalise.max(1,Localisation)
 
-    class Symptomes(Thing):
+
+    class aredigeCR(Medecin >> CompteRendu):
+        pass
+
+    class concerneparCR(Patient >> CompteRendu):
         pass
 
 
-    class SymptomesCovid(Symptomes):
-        pass
-
-    class nomSymptomes(DataProperty,FunctionalProperty):
-        domain = [Symptomes]
-        range = [str]
-
-    class aSymptomes(Patient >> Symptomes):
+    class Hopital(Thing):
         pass
 
 
-    class Orientation(Thing):
+    class nomHopital(Hopital >> str):
         pass
 
 
-    class Hopital(Orientation):
+    class adresseHopital(Hopital >> str):
         pass
 
-
-    class RDV(Orientation):
+    class estAffilié(Medecin >> Hopital):
         pass
 
-    class dateRDV(RDV >> str):
-        pass
-
-    #Prise en charge
-    class PCDomicile(Orientation):
-        pass
-
-    class nomOrientation(Orientation >> str):
-        pass
-
-    class Fiche(Thing):
-        pass
-
-
-    class patientConcerne(Fiche >> Patient):
-        pass
-
-
-    class medecinConcerne(Fiche >> Medecin):
-        pass
+    estAffilié.max(1,Hopital)
 
 
 
 
 
-    class estConcerneParOrientation(Patient >> Orientation):
-        pass
-
-    class prescritOrientation(Medecin >> Orientation):
-        pass
-
-    AllDisjoint([Daira, Wilaya,Specialite,Symptomes,MaladieChronique,Patient,Medecin,Orientation,])
+    AllDisjoint([Daira, Wilaya,Specialite,MaladieChronique,Patient,Medecin,Hopital])
 
 
 onto.save("sortie.owl", format="ntriples")
