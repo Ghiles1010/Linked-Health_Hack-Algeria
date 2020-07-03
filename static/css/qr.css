@@ -1,0 +1,32 @@
+body
+{
+
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+
+.message h1
+{
+    
+    color: #372a8d;
+    font-size: 50pt;
+
+}
+
+.message p
+{
+
+    color: black;
+    font-size: 20pt;
+
+}
+.message
+{
+
+    margin-top: 100px;
+    margin-left: 100px;
+
+}

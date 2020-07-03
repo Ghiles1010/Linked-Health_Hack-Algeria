@@ -119,8 +119,8 @@ def fromcsvtordf(path):
     patients = pd.read_csv(path,encoding='latin-1')
     for i in range(len(patients)):
         patient = patients.iloc[i]
-        create_patient(patient[0], patient[1], patient[2], int(patient[3]), patient[4], patient[5], patient[6],
-                       patient[7], int(patient[8]), int(patient[9]), patient[10], patient[11],patient[12])
+       # create_patient(patient[0], patient[1], patient[2], int(patient[3]), patient[4], patient[5], patient[6],
+        #               patient[7], int(patient[8]), int(patient[9]), patient[10], patient[11],patient[12])
 
 
 #Les fonctions d'enrichissements
@@ -357,7 +357,7 @@ dict_fiches=[]
 
 
 graph = rdflib.Graph()
-graph.parse("sortiefinal.owl",format="turtle")
+#graph.parse("sortiefinal.owl",format="turtle")
 open("sortieturtle.rdf","w")
 graph.serialize("sortieturtle.rdf",format="turtle")
 
@@ -392,8 +392,7 @@ enrichissementspecialite("specialite_medecine.txt")'''
 
 
 #On invoque le raisonneur Hermit
-owlready2.JAVA_EXE = "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath\\java.exe"
-sync_reasoner()
+
 
 
 #On sauvegarde notre ontologie

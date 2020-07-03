@@ -1,7 +1,7 @@
 const selectedAll = document.querySelectorAll(".select");
 const maladies_container = document.querySelector(".container.maladies");
 
-
+$(".field.spe").hide(1);
 
 selectedAll.forEach( (selected) => {
 	
@@ -161,6 +161,8 @@ $('#myform').submit(function(){ //listen for submit event
 		.attr('name', 'rhesus')
 		.attr('value', rhesus.innerText)
 		.appendTo('#myform');
+
+		
 
 
 

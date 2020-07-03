@@ -5,9 +5,11 @@
 }
 
 html, body {
-  height: 100%;
   margin: 0;
+  height: 100%;
 }
+
+
 
 /************************************************************************/
 
@@ -15,16 +17,16 @@ html, body {
 header
 {
 	height: 8%;
-	background-color:#4234A3;
+	background-color:white;
 	display: flex;
 	justify-content: flex-end;
-
 	align-items:center;
 }
 
 .nav
 {
-	margin-right: 40px;
+
+	margin-right: auto;
 	list-style:none;
 }
 
@@ -49,7 +51,7 @@ header
 .nav li a
 {
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 
 
@@ -58,7 +60,7 @@ header
 {
 	margin-right: auto;
 	margin-left:10px;
-	color: white;
+	color:#4234A3;
 	padding-left:10px;
 }
 	
@@ -66,28 +68,30 @@ header
 #connect
 {
 	color: white;
-	background:	#32CD32;
+	background:	#4234A3;
 
 	cursor: pointer;
 	outline: none;
+	
+	height: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
 
 	border-radius: 5px;
-	border-color: #32CD32;
+	border-color: #4234A3;
 	border-style: solid;
 	
 	
-	margin-left:5px;
-	margin-right:5px;
+	margin-left:20px;
+	margin-right:50px;
 }
 
 
 
 #connect:hover
 {
-	color: white;
-	background:	#006400;
-	border-color: #006400;
 
+	background: #261881;
 }
 
 
@@ -109,100 +113,117 @@ body
 	margin: 0;
 	padding: 0;
 	color: white;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
 	
 }
 
-section
-{
-	
-	width: 100%;
 
+.content
+{
+	flex: 1 1 0;
+	display: flex;
+	height: 100%;
+	flex-direction: column;
 }
 
 .welcome
 {
-	height: 92%;
+	height: 100%;
+	flex: 1 1 0;
+	display: flex
+}
+
+.welcome .title
+{
 	display: flex;
 	flex-direction: column;
-	
+	flex: 1 1 0;
 	justify-content: center;
-    align-items: center;
-
+	align-items: center;
+	transform: translate(10px, -30px); 
 	
-	text-align: center;
-	background: linear-gradient(to right bottom, #55d7b7, #2acec3, #00c3cd, #00b8d4, #00acd6); 
+	color: #4234A3;	
 }
 
-.welcome:after
+.welcome .title h1
 {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 78px;
-	background: url(images/wave.png);
-	background: cover;
 
+	font-weight: lighter;	
+	font-size: 35pt;
+	letter-spacing: 8px;
 }
 
-.welcome h1{
-	position: relative;
-	bottom: 50px;
-	margin: 10px;
-	
-}
-
-.welcome h4
+.welcome .title h3
 {
-	position: relative;
-	bottom: 50px;
-	margin: 10px;
+
+	font-weight: lighter;	
+
 }
 
+.welcome .title button
+{
 
-.register{
-	
+	height: 40px;
+	width:150px;
+	margin-top: 50px;
 	color: white;
 	background: #4234A3;
-	width: 30%;
-	cursor: pointer;
 	outline: none;
-	height: 40px;
-	border-radius: 10px;
-	border-color: #4234A3;
 	border-style: solid;
-
-}
-
-.register:hover {
-	
-	background-color: #634FAF;
-}
-
-.register:active {
-	
-	background-color: #ffffff;
-	color: #4234A3;
+	border-color: #4234A3;
+	border-radius: 5px;
+	cursor: pointer;
 }
 
 
-img
+.welcome .title button:hover
 {
-	position: relative;
-	width : 100px;
+
+	background: #261881;
+
+}
+.welcome .illustration
+{
+
+	flex: 1 1 0;
+}
+.illustration img
+{
+	position:absolute;
+	bottom: 60px;
+	right: 360px;
+	width : 350px;
 	height: auto;
-	left:20%;
-	
 }
 
-/****************************************************************************/
+.illustration p
+{
+	color: #4234A3;
+	font-size: 20pt;
+	line-height: 40px;
+	text-align: center;
+	width: 230px;
+	position: absolute;
+	right: 70px;
+	top: 160px;
+}
+.bande
+{
+
+	height: 60px;
+	background: #4234A3;
+}
+
 
 footer
 {
+	
 	color:black;
 	display:flex;
 	justify-content:space-around;
 	
 	
 }
+

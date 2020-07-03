@@ -17,6 +17,6 @@ with onto:
     class DossierMedical(Thing):
         pass
 
-    
+
 
 
